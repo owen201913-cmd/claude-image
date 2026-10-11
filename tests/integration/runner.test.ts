@@ -137,6 +137,18 @@ async function state(requests: RequestStore, id: string, expected: RequestRecord
 describe('runner integration using a controlled adapter; zero Ngini/network requests', () => {
   it('cold runner removes only eligible crash downloads before request creation, preserving unproven legacy data', async () => {
     const { runner, requests, config, shared } = await setup(true);
+    // Await the persisted terminal transition, rather than imposing the polling
+    // helper's 2.5-second limit on cold image decoding and durable filesystem I/O.
+    const transition = requests.transition.bind(requests);
+    let settle!: (record: RequestRecord) => void;
+    const completed = new Promise<RequestRecord>(resolve => { settle = resolve; });
+    const observedTransition = vi.spyOn(requests, 'transition').mockImplementation(async (...args) => {
+      const record = await transition(...args);
+      if (record.request_id === 'cache-cold-fixture' && ['image_ready', 'failed', 'cancelled'].includes(record.status)) {
+        settle(record);
+      }
+      return record;
+    });
     const temporary = await createDownloadTemporary(path.join(config.dataDir, 'tmp'));
     await writeFile(temporary.filename, 'crash download');
     const ownerPath = path.join(path.dirname(temporary.filename), '.ngini-download-owner.json');
@@ -146,7 +158,9 @@ describe('runner integration using a controlled adapter; zero Ngini/network requ
     const legacy = path.join(config.dataDir, 'tmp', 'legacy.download');
     await writeFile(legacy, 'keep legacy');
     await runner.generate('cache-cold-fixture', prompt);
-    await state(requests, 'cache-cold-fixture', 'image_ready');
+    const terminal = await completed;
+    observedTransition.mockRestore();
+    expect(terminal.status).toBe('image_ready');
     await expect(readFile(temporary.filename)).rejects.toMatchObject({ code: 'ENOENT' });
     expect(await readFile(legacy, 'utf8')).toBe('keep legacy');
     expect(shared.submits).toBe(0); expect(shared.opens).toBe(0);

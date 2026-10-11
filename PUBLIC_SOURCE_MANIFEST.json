@@ -624,8 +624,8 @@
     },
     {
       "name": "tests/integration/runner.test.ts",
-      "bytes": 45946,
-      "sha256": "0a8c03602e77dec18720a4f62fa18b8e804f287c56899846bd7f372d19b8f7d3"
+      "bytes": 46700,
+      "sha256": "8542304b3efebf6ef85e90d093d4cf5644c2a2c43629e83c710c3e40f4fd1682"
     },
     {
       "name": "tests/unit/browser-session.test.ts",
