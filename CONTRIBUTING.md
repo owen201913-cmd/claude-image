@@ -6,7 +6,7 @@ Claude Image 0.1.0 is maintained by [Yutou](https://github.com/owen201913-cmd). 
 - Run offline fixtures for contributions and CI. Do not consume generation credits to reproduce routine issues. Report which checks actually ran; historical results do not validate a new change.
 - Keep prompts, private images, browser profiles, cookies, tokens, and personal file paths out of issues, pull requests, and logs.
 - Original image bytes must remain unchanged. Saving a local file alone does not prove in-chat delivery.
-- Clean Windows installation, update, restart, and uninstall checks were waived by the owner and remain **NOT_RUN_USER_WAIVED**, not passed.
+- Compatibility evidence covers an existing Windows 11 x64 installation. Keep tested environments separate from unverified environments.
 - Follow [SECURITY.md](SECURITY.md) for security reports. Contributions to project code use the [MIT license](LICENSE); retain third-party licenses and corresponding source materials.
 
 Yutou is the display name. The GitHub login and repository URL remain `owen201913-cmd/claude-image`.

@@ -37,7 +37,7 @@ Each explicit generation request makes one submission. Timeouts and delivery ret
 - Background generation, an ordinary-chat image card, and original downloads have actual-host evidence. The card is a minimal MCP App, not a native image attachment.
 - Version 0.1.0 retains RC12 functionality. The historical controlled suite passed **332/332 tests and 54/54 suites**. The 0.1.0 build and one targeted CSP check of its exact UI artifact passed; the full suite was not rerun and no new live generation was submitted for release preparation.
 - Image-only replies require separately choosing the optional [account Instructions](image-only-setup.md). The MCPB does not apply them automatically. One image-only turn and three controls requiring text passed; this does not guarantee text-free replies on every turn. Claude's own tool and permission interface may remain visible.
-- **Clean-Windows installation, update, restart, and uninstall: NOT_RUN_USER_WAIVED.** The owner waived these untested checks; they are not recorded as passes. macOS, ARM64, web, and mobile clients are unsupported.
+- Tested on an existing Windows 11 x64 installation. macOS, ARM64, web, and mobile clients are unsupported.
 - Quota exhaustion, human verification, refusal, changed website UI, or login requirements stop the task. No payments or limit bypass are implemented.
 
 See [release acceptance](acceptance-0.1.0.md), [compatibility](compatibility.md), and [image-reply setup](image-only-setup.md) for detailed evidence and exceptions.

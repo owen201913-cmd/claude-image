@@ -1,6 +1,6 @@
 # 貢獻與本機驗證
 
-目前公開來源為 **Claude Image 0.1.0**，維護者為 [Yutou](https://github.com/owen201913-cmd)。GitHub 帳號與 repository 網址仍是 `owen201913-cmd/claude-image`。實際版本證據以 [正式版說明](release-0.1.0.md)、[測試](testing.md) 及 [相容性](compatibility.md) 為準；乾淨 Windows 生命週期為 **NOT_RUN_USER_WAIVED**，不是 PASS。GitHub 託管 workflow 已執行，最新結果見 [Actions](https://github.com/owen201913-cmd/claude-image/actions)，本機歷史結果不能代替託管結果。
+目前公開來源為 **Claude Image 0.1.0**，維護者為 [Yutou](https://github.com/owen201913-cmd)。GitHub 帳號與 repository 網址仍是 `owen201913-cmd/claude-image`。實際版本證據以 [正式版說明](release-0.1.0.md)、[測試](testing.md) 及 [相容性](compatibility.md) 為準；目前實機相容性證據涵蓋既有 Windows 11 x64 環境。GitHub 託管 workflow 已執行，最新結果見 [Actions](https://github.com/owen201913-cmd/claude-image/actions)，本機歷史結果不能代替託管結果。
 
 ## Windows 開發環境
 

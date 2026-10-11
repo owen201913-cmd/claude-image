@@ -49,8 +49,8 @@
     },
     {
       "name": "CHANGELOG.md",
-      "bytes": 26140,
-      "sha256": "933764cf1ed28b7d60a2ae17974b858028ab4b0cddda7f261e017eaf05ab650b"
+      "bytes": 25584,
+      "sha256": "d33e7be89688ea7a7314c3d99804c37260ead074b4bd0c78f6825224e894b39f"
     },
     {
       "name": "companion-instructions/ngini-image-replies.txt",
@@ -59,8 +59,8 @@
     },
     {
       "name": "CONTRIBUTING.md",
-      "bytes": 1336,
-      "sha256": "7ac96c200c52d5af2e611cb97e96009c20e324ec90b875386c8a4270e32f6d0a"
+      "bytes": 1332,
+      "sha256": "360bc44752b5a4a69945c276349178b135acfe1814564f4c4e184051951b8644"
     },
     {
       "name": "docs/acceptance-0.1.0.md",
@@ -124,8 +124,8 @@
     },
     {
       "name": "docs/contributing.md",
-      "bytes": 5891,
-      "sha256": "54c7cdb238aee7631a4300b2241e86e1a0f8242a7c44f6f794be446a24e8c19c"
+      "bytes": 5884,
+      "sha256": "447417e648038d57d857ce60bbc43bf51033bef3f75ba2add20c1fdfae07c16a"
     },
     {
       "name": "docs/feasibility.md",
@@ -224,8 +224,8 @@
     },
     {
       "name": "docs/release-0.1.0.md",
-      "bytes": 4314,
-      "sha256": "c1f840759a54fc20bbbdd1a43c067bb13148bc22721d936156210220947c3613"
+      "bytes": 4207,
+      "sha256": "ba7a6da0ba29e0681fed449655f0297e66051db033584762a2c821cc5f380344"
     },
     {
       "name": "docs/release-candidate.md",
@@ -294,18 +294,18 @@
     },
     {
       "name": "README.en.md",
-      "bytes": 4019,
-      "sha256": "fc72e7f885302df21e6dbb28a971749aba68be0b2dc516f7d46a3bd41af2342e"
+      "bytes": 3913,
+      "sha256": "56a8d7a0c24adc12da8e7f1726f5f208410d9725de369a328c4166fffe11014d"
     },
     {
       "name": "README.md",
-      "bytes": 4019,
-      "sha256": "fc72e7f885302df21e6dbb28a971749aba68be0b2dc516f7d46a3bd41af2342e"
+      "bytes": 3913,
+      "sha256": "56a8d7a0c24adc12da8e7f1726f5f208410d9725de369a328c4166fffe11014d"
     },
     {
       "name": "README.zh-TW.md",
-      "bytes": 3495,
-      "sha256": "c4aa35b90bfaaa48c36cb9cad578f862009f8e05fe7e546ed70bfeb9b6f7d452"
+      "bytes": 3401,
+      "sha256": "554322f67548c5433f93d40f8a8653fa6aa701ca18f9bbb152147475b01e949f"
     },
     {
       "name": "scripts/archive-github.py",

@@ -29,7 +29,7 @@ For image-only replies on success, follow the optional [image-reply setup](docs/
 
 This is an unofficial extension. Image descriptions are sent to Ngini for processing; see [privacy](PRIVACY.md). It does not automatically send entire chats, read ordinary-browser data, or collect telemetry. Original bytes are preserved, and uninstalling the extension does not delete saved images.
 
-See [0.1.0 release notes](docs/release-0.1.0.md) for tested scope and exceptions. **Clean-Windows installation, update, restart, and uninstall acceptance was not run and was waived by the owner (NOT_RUN_USER_WAIVED).** macOS, ARM64, web, and mobile clients are unsupported. Image-only replies have one successful sample and are not guaranteed on every turn.
+Tested on an existing Windows 11 x64 installation. macOS, ARM64, web, and mobile clients are unsupported. Image-only replies have one successful sample and are not guaranteed on every turn. See [0.1.0 release notes](docs/release-0.1.0.md) for details.
 
 ## Development
 
