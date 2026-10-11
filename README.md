@@ -1,39 +1,39 @@
 # Claude Image
 
-在 Claude Desktop 聊天中描述畫面，生成一張圖片，並在同一對話預覽及下載原圖。網頁操作預設在背景進行，基本使用不需要 API key、額外帳號或手動複製提示詞。
+Describe a scene in Claude Desktop chat, generate one image, and preview or download the original in the same conversation. Website operations run in the background by default. Basic use needs no API key, additional account, or manual prompt copying.
 
-[下載 Claude Image 0.1.0](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) · [English](README.en.md) · [MIT 授權](LICENSE)
+[Download Claude Image 0.1.0](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) · [Traditional Chinese](README.zh-TW.md) · [MIT license](LICENSE)
 
-## 安裝
+## Install
 
-1. 使用 **Windows x64**、**Claude Desktop 2.26454.2 或較新版本**，以及標準安裝的 **Microsoft Edge 或 Google Chrome**。Claude 必須支援 MCP Apps 的圖片與檔案下載能力；較新版本未全部實測。
-2. 到 [Release → Assets](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) 下載 `.mcpb` 安裝包。**Code → Download ZIP** 與 **Source code (zip)** 是原始碼，不能直接安裝成外掛。
-3. 雙擊 `.mcpb` 或拖入 Claude Desktop，完成 Claude 的安裝及權限確認。基本使用不用安裝 Node、執行 npm 或編輯 JSON。需要時可用同版 `.sha256` 核對檔案。
-4. 保持「顯示網站瀏覽器」與「本機測試圖片」關閉，在新的普通聊天輸入：
+1. Use **Windows x64**, **Claude Desktop 2.26454.2 or newer**, and a standard installation of **Microsoft Edge or Google Chrome**. Claude must support MCP Apps image display and file downloads; not every newer version has been tested.
+2. Download the `.mcpb` installer from [Release → Assets](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0). **Code → Download ZIP** and **Source code (zip)** are development source, not installable extensions.
+3. Double-click the MCPB or drag it into Claude Desktop, then complete Claude's installation and permission prompts. No separate Node installation, npm command, or JSON editing is needed. The matching `.sha256` file is available for verification.
+4. Leave **Visible browser** and **Diagnostic fixture** off. In a new ordinary chat ask:
 
-   > 幫我畫：貓蜷縮在太空船窗邊睡覺
+   > Draw a cat sleeping beside a spaceship window.
 
-5. 圖片出現後，點圖片下載原檔，完成 Claude 的下載確認。
+5. Click the image to download the original and complete Claude's download confirmation.
 
-## 使用
+## Use
 
-**提示詞盡量簡短。** 直接寫一句畫面描述，例如「雨中的小木屋」。長提示詞可能導致誤解或生成錯誤。保留你的語言與指定條件，不強制英文，也不自行加風格；只要求寫提示詞時不生圖。
+**Keep prompts short.** Use one direct scene description, such as “A cabin in the rain.” Long prompts may lead to misunderstandings or generation errors. Your language and explicit requirements are preserved; English is optional, and no unrequested style is added. Asking only for a prompt does not generate an image.
 
-每次明確生圖要求只提交一次，目標交付一張圖。同時只處理一項任務；逾時或交付失敗時查詢原任務，不自動重新生圖。
+Each explicit generation request makes one submission, targeting one delivered image. Only one task runs at a time. Timeouts and delivery failures reuse the existing task instead of automatically generating again.
 
-每日免費量**估計約 5–10 次**，以服務當下額度及可用性為準。工具不提供額外額度、不付款、不繞過限制。遇額度用完、人工驗證、拒絕或登入要求時會停止並提示。
+The daily free allowance is **estimated at 5–10 generations**, subject to the service's current rules and availability. The extension does not provide extra credits, make payments, or bypass limits. Quota exhaustion, human verification, refusal, or login requirements stop the task with a message.
 
-希望成功時只顯示圖片，可依 [只圖片回覆設定](docs/image-only-setup.md) 追加帳號 Instructions。這是另外選擇的設定，MCPB 不會自動套用；Claude 仍可能附加文字或顯示工具及權限介面。圖片以最小 MCP App 呈現，點擊即可下載原檔。
+For image-only replies on success, follow the optional [image-reply setup](docs/image-only-setup.md) to append account Instructions. The MCPB does not apply them automatically. Claude may still add text or display its own tool and permission interface. Images use a minimal MCP App; click the image to download the unchanged original.
 
-## 資料與限制
+## Data and limitations
 
-這是非官方擴充套件，生圖描述會送到 Ngini 處理；詳見 [隱私說明](PRIVACY.md)。不自動傳送整段對話、不讀取日常瀏覽器資料，也不收集 telemetry。原圖保留原始位元組，解除外掛不會刪除已保存圖片。
+This is an unofficial extension. Image descriptions are sent to Ngini for processing; see [privacy](PRIVACY.md). It does not automatically send entire chats, read ordinary-browser data, or collect telemetry. Original bytes are preserved, and uninstalling the extension does not delete saved images.
 
-已實測的範圍及例外見 [0.1.0 發行說明](docs/release-0.1.0.md)。**乾淨 Windows 安裝／更新／重啟／移除驗收未執行，經擁有者免測（NOT_RUN_USER_WAIVED）**；macOS、ARM64、網頁及手機版尚未支援。只圖片回覆有單一成功樣本，不能保證所有回合都無附加文字。
+See [0.1.0 release notes](docs/release-0.1.0.md) for tested scope and exceptions. **Clean-Windows installation, update, restart, and uninstall acceptance was not run and was waived by the owner (NOT_RUN_USER_WAIVED).** macOS, ARM64, web, and mobile clients are unsupported. Image-only replies have one successful sample and are not guaranteed on every turn.
 
-## 開發
+## Development
 
-使用 Node >=24.15.0 與 pnpm 11.19.0；安裝包使用 Claude 內建 Node >=20.9.0。
+Use Node >=24.15.0 and pnpm 11.19.0. The bundle uses Claude's Node runtime >=20.9.0.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -43,8 +43,10 @@ pnpm run test:protocol
 pnpm run verify:release
 ```
 
-一般測試與 CI 僅使用離線及模擬頁面，不消耗生圖額度。打包前須按 [原生依賴來源說明](third_party/native/SOURCE_ACCESS.md) 準備相符材料，再執行 `pnpm run package`。
+Normal tests and CI use offline fixtures and controlled pages, without consuming generation credits. Prepare matching materials using the [native-source instructions](third_party/native/SOURCE_ACCESS.md) before running `pnpm run package`.
 
-程式碼採 [MIT](LICENSE)，第三方依賴保留各自授權；生成圖片的使用權依服務規則而定。
+Code is [MIT licensed](LICENSE); dependencies retain their own licenses. Image usage rights depend on the service's terms.
 
-[貢獻說明](CONTRIBUTING.md) · [安全](SECURITY.md) · [測試範圍](docs/testing.md) · [變更紀錄](CHANGELOG.md)
+[Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Testing](docs/testing.md) · [Changelog](CHANGELOG.md)
+
+Maintained by [Yutou](https://github.com/owen201913-cmd).

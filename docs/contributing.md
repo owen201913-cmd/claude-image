@@ -1,6 +1,6 @@
 # 貢獻與本機驗證
 
-目前來源為 **0.1.0-rc.8 發行候選**。RC2 曾實測單次真實生成與原圖交付，整體 host 因額外文字／查詢判為 FAIL；RC3 的既有圖片簡潔重開 PASS。這些歷史結果不能替代 RC8 的端到端或乾淨 Windows 驗收。各版本實際執行的檢查，以 [測試](testing.md)、[相容性](compatibility.md) 及 [發行檢查](release-checklist.md) 為準。GitHub 託管 workflow 尚未執行，不能宣稱 GitHub CI 已通過。
+目前公開來源為 **Claude Image 0.1.0**，維護者為 [Yutou](https://github.com/owen201913-cmd)。GitHub 帳號與 repository 網址仍是 `owen201913-cmd/claude-image`。實際版本證據以 [正式版說明](release-0.1.0.md)、[測試](testing.md) 及 [相容性](compatibility.md) 為準；乾淨 Windows 生命週期為 **NOT_RUN_USER_WAIVED**，不是 PASS。GitHub 託管 workflow 已執行，最新結果見 [Actions](https://github.com/owen201913-cmd/claude-image/actions)，本機歷史結果不能代替託管結果。
 
 ## Windows 開發環境
 

@@ -2,7 +2,7 @@ import { mkdtemp, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { chromium, type BrowserContext, type Page } from 'playwright-core';
-import { afterAll, beforeAll, beforeEach, describe, expect, it } from 'vitest';
+import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
 import { NginiAdapter } from '../../src/browser/ngini-adapter.js';
 import { NGINI_GUEST_IMAGE, NGINI_GUEST_NEW } from '../../src/browser/ngini-dom.js';
 import { ObservedGuestPort } from '../../src/browser/ngini-port.js';
@@ -76,10 +76,21 @@ describe.skipIf(process.env.NGINI_DOM_BROWSER_TEST !== '1')('production port sys
         await route.fulfill({ status, contentType: 'text/plain', headers: apiHeaders, body: 'offline fixture only' });
       } else await route.abort('blockedbyclient');
     });
-    page = context.pages()[0]!;
-    page.setDefaultTimeout(1000);
   }, 20_000);
-  beforeEach(() => { status = 200; documentHeaders = {}; apiHeaders = {}; });
+  beforeEach(async () => {
+    status = 200; documentHeaders = {}; apiHeaders = {};
+    page = await context.newPage();
+    // These cases test system-state gates, not a 1 s cold-navigation SLA.
+    // Keep DOM actions bounded while allowing the routed document to load.
+    page.setDefaultTimeout(1000);
+    page.setDefaultNavigationTimeout(10_000);
+  });
+  afterEach(async () => {
+    for (const port of ports.splice(0)) await port.close();
+    // Closing the case's page cancels a pending navigation after any failure,
+    // so it cannot abort the next case's navigation or retain response listeners.
+    await page?.close();
+  });
   afterAll(async () => {
     for (const port of ports) await port.close();
     await context?.close();

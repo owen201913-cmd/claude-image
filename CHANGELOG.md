@@ -2,7 +2,7 @@
 
 ## 0.1.0 — 2026-10-12, release with a documented Windows-testing exception
 
-- 正式發行保留 RC12 功能行為，只更新版本標籤、manifest 與交付文件；不新增帳號、API、收費、額度池或生成來源。MIT 授權，非官方 Ngini 整合；實際產物與雜湊見 [交付索引](docs/release-0.1.0.md)。尚未公開 repository 或 Release。
+- 正式發行保留 RC12 功能行為，只更新版本標籤、manifest 與交付文件；不新增帳號、API、收費、額度池或生成來源。MIT 授權，非官方 Ngini 整合；實際產物與雜湊見 [交付索引](docs/release-0.1.0.md)。公開 repository 為 [owen201913-cmd/claude-image](https://github.com/owen201913-cmd/claude-image)，維護者顯示名稱為 Yutou；正式 Release 與目前限制見交付索引。
 - 沿用後續 [RC12 完整單 worker 受控測試](docs/test-results-rc12-single-worker-20261012.json)：332/332 tests、54/54 suites PASS、原 20 秒 timeout 與三項 browser flags／fixture 開啟。0.1.0 建置與本版精確 UI 的單項 CSP 檢查 PASS，其餘兩項 CSP 案例未重跑；正式版沒有重跑完整 suite 或新增 live，live 預算 0；舊 RC11 327/328 FAIL 與全部歷史報告保留。
 - 提供獨立 [Instructions 文字](companion-instructions/ngini-image-replies.txt) 與 [帳號設定／撤回說明](docs/image-only-setup.md)。實際保存後 1 個既有圖完整回合嚴格只圖片 PASS、3 個必要文字控制 PASS；不是 MCPB 自動載入或確定性靜默能力，MCPB-only／Skill 的原 FAIL 不改寫。
 - 原生 VHDX 開機遇到 `0x7B`，已返回原 Windows 11 Home；唯一 QA 開機項目已移除、原開機設定已核對。擁有者於 2026-10-12 明確放棄乾淨 Windows P4，記為 **NOT_RUN_USER_WAIVED**，不改為 PASS。乾淨安裝、更新、重啟及移除未驗收；[例外紀錄](docs/native-qa-waiver-20261012.md) 與 [正式版驗收](docs/acceptance-0.1.0.md) 分開列出證據與限制，不推定開機失敗原因。

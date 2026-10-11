@@ -49,43 +49,18 @@
     },
     {
       "name": "CHANGELOG.md",
-      "bytes": 25995,
-      "sha256": "5025543692a3383e9b3f535bd5a13474e3c3bb94e51eefe07ccce4487808dd96"
-    },
-    {
-      "name": "CONTRIBUTING.md",
-      "bytes": 1660,
-      "sha256": "a405937b9216ae112d4637288503c4d191213eabb7306bc3c7585cdda353aa80"
-    },
-    {
-      "name": "LICENSE",
-      "bytes": 1088,
-      "sha256": "e5e0dcee1527ec07cd09e1ba55f11c279cb8638c97e46bc8757c256acf254890"
-    },
-    {
-      "name": "PRIVACY.md",
-      "bytes": 2447,
-      "sha256": "4117a1db8a78f48911369d2603d88476989d14371430ca005f523e6ccf25ff60"
-    },
-    {
-      "name": "README.en.md",
-      "bytes": 3946,
-      "sha256": "3820be15d91d5f0efd0c20f6150c67f9fe84de2dd5f5e681ec6d58f94e621aca"
-    },
-    {
-      "name": "README.md",
-      "bytes": 3498,
-      "sha256": "2824eb609a0e1bebde212f108b86d9420afb0cc687d186d04689f3a2132f5224"
-    },
-    {
-      "name": "SECURITY.md",
-      "bytes": 2014,
-      "sha256": "6f38ce192a246fc0f57c79f5ec2c87e238c8e6603a07a9cae79daa4ddefc7bf5"
+      "bytes": 26140,
+      "sha256": "933764cf1ed28b7d60a2ae17974b858028ab4b0cddda7f261e017eaf05ab650b"
     },
     {
       "name": "companion-instructions/ngini-image-replies.txt",
       "bytes": 1317,
       "sha256": "5ecec4f7f9a67a37a3cc3ccd447574ad64905acb4d965e509b1aa384926ec92b"
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "bytes": 1336,
+      "sha256": "7ac96c200c52d5af2e611cb97e96009c20e324ec90b875386c8a4270e32f6d0a"
     },
     {
       "name": "docs/acceptance-0.1.0.md",
@@ -149,8 +124,8 @@
     },
     {
       "name": "docs/contributing.md",
-      "bytes": 5825,
-      "sha256": "4b8b207c699ebd0b8bd15158ccc2df59d04cc4e0dc5e51890c362a2e9a8bbfbe"
+      "bytes": 5891,
+      "sha256": "54c7cdb238aee7631a4300b2241e86e1a0f8242a7c44f6f794be446a24e8c19c"
     },
     {
       "name": "docs/feasibility.md",
@@ -249,8 +224,8 @@
     },
     {
       "name": "docs/release-0.1.0.md",
-      "bytes": 3650,
-      "sha256": "5ac9c613351b246e1466e2a4cb6e721848355ed0f17dffa3a5fd2d88969f5728"
+      "bytes": 4314,
+      "sha256": "c1f840759a54fc20bbbdd1a43c067bb13148bc22721d936156210220947c3613"
     },
     {
       "name": "docs/release-candidate.md",
@@ -288,6 +263,11 @@
       "sha256": "d8952d6a4941dd0bb4644f5276cf0cdd514731cb91513caf8cd962ca7f64f570"
     },
     {
+      "name": "LICENSE",
+      "bytes": 1088,
+      "sha256": "e5e0dcee1527ec07cd09e1ba55f11c279cb8638c97e46bc8757c256acf254890"
+    },
+    {
       "name": "manifest.json",
       "bytes": 3542,
       "sha256": "c6b8c06b2a218aaecf87b179bd0c01dac533adbd6e9dc81ca95bc7a360427ebb"
@@ -306,6 +286,26 @@
       "name": "pnpm-workspace.yaml",
       "bytes": 81,
       "sha256": "1d3a8c271ea611ab7d5a4569c61638f26b80c13f5ca0be403a095bcdd5f47bb0"
+    },
+    {
+      "name": "PRIVACY.md",
+      "bytes": 2447,
+      "sha256": "4117a1db8a78f48911369d2603d88476989d14371430ca005f523e6ccf25ff60"
+    },
+    {
+      "name": "README.en.md",
+      "bytes": 4019,
+      "sha256": "fc72e7f885302df21e6dbb28a971749aba68be0b2dc516f7d46a3bd41af2342e"
+    },
+    {
+      "name": "README.md",
+      "bytes": 4019,
+      "sha256": "fc72e7f885302df21e6dbb28a971749aba68be0b2dc516f7d46a3bd41af2342e"
+    },
+    {
+      "name": "README.zh-TW.md",
+      "bytes": 3495,
+      "sha256": "c4aa35b90bfaaa48c36cb9cad578f862009f8e05fe7e546ed70bfeb9b6f7d452"
     },
     {
       "name": "scripts/archive-github.py",
@@ -343,6 +343,16 @@
       "sha256": "a652f4d6a03f5688b9ee9ad4ab2f1d15b0887515fcd81bd308ce0a1e489e9705"
     },
     {
+      "name": "scripts/native_rust_materials.py",
+      "bytes": 12964,
+      "sha256": "9c831330b9bd1a20f5c62fe3d68b73a803eb13a52fbcc1affd6cc19b19e4019d"
+    },
+    {
+      "name": "scripts/native_sharp_materials.py",
+      "bytes": 8815,
+      "sha256": "de9564c22803b4b196edd694b13ddfd53d0a3421d3af9acbb6f7bb7fbae0b455"
+    },
+    {
       "name": "scripts/native-distribution.mjs",
       "bytes": 14233,
       "sha256": "cebd473fdcbf30ab71cc1403143583edc1e3a88a6d473132c15dcb3c85239fa1"
@@ -371,16 +381,6 @@
       "name": "scripts/native-source-access-check.py",
       "bytes": 1641,
       "sha256": "13e5aaac3e1fccaf6c7c493e76bfb2d7bd59469419acfc642335d5664622168d"
-    },
-    {
-      "name": "scripts/native_rust_materials.py",
-      "bytes": 12964,
-      "sha256": "9c831330b9bd1a20f5c62fe3d68b73a803eb13a52fbcc1affd6cc19b19e4019d"
-    },
-    {
-      "name": "scripts/native_sharp_materials.py",
-      "bytes": 8815,
-      "sha256": "de9564c22803b4b196edd694b13ddfd53d0a3421d3af9acbb6f7bb7fbae0b455"
     },
     {
       "name": "scripts/package-native-source.py",
@@ -446,6 +446,11 @@
       "name": "scripts/verify-source.py",
       "bytes": 10345,
       "sha256": "9e20154c1252940d80b43e50d4e7bdb176ea8e939408733808b374e2d1ce3e73"
+    },
+    {
+      "name": "SECURITY.md",
+      "bytes": 2014,
+      "sha256": "6f38ce192a246fc0f57c79f5ec2c87e238c8e6603a07a9cae79daa4ddefc7bf5"
     },
     {
       "name": "src/agent-instructions.ts",
@@ -619,8 +624,8 @@
     },
     {
       "name": "tests/integration/browser-system-state.test.ts",
-      "bytes": 20486,
-      "sha256": "9e8f01aceb3f3a1b3e87ff8d393805582547bef2cf63d46acd8afc16ac603fad"
+      "bytes": 20989,
+      "sha256": "0e7f9b791b95efc8895394a842cc0220b481a0f509fc6f7800e5e30f39af077d"
     },
     {
       "name": "tests/integration/runner.test.ts",
@@ -713,21 +718,6 @@
       "sha256": "9ee6d9ba6682af29c79ae95abeb51f808c4b4b098fa25e7774ff125baecb02f2"
     },
     {
-      "name": "third_party/native/README.md",
-      "bytes": 10691,
-      "sha256": "fe5f3809025982d9ad5e481d28cae4987cb31bd3cdbbe7d0460282a2c31828fb"
-    },
-    {
-      "name": "third_party/native/REPLACEMENT.md",
-      "bytes": 3622,
-      "sha256": "5ce54bd2148266913ff8b0e84d9cb1bd065ff3330adcd4943ec96bdcfc09b2d0"
-    },
-    {
-      "name": "third_party/native/SOURCE_ACCESS.md",
-      "bytes": 6727,
-      "sha256": "27e35d62090e6eaeae31cd5f1d1290f038e400359837fdd78b26c8240f9f2cda"
-    },
-    {
       "name": "third_party/native/component-notices/aom/LICENSE",
       "bytes": 1316,
       "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
@@ -808,11 +798,6 @@
       "sha256": "a37812e0e27a211272d4c27fa45028c3653e78bb708acccb77c94128dc72b98e"
     },
     {
-      "name": "third_party/native/component-notices/cairo/util/COPYING",
-      "bytes": 138,
-      "sha256": "008e976b6e5e7155ee24322073f42cab7cd6daf90bc2322f1d5c3aacab94111c"
-    },
-    {
       "name": "third_party/native/component-notices/cairo/util/cairo-script/COPYING",
       "bytes": 656,
       "sha256": "25f4d4ce651b1ee6aff713ff986275d6c190a8537e36437886f8bf1497b0a174"
@@ -826,6 +811,11 @@
       "name": "third_party/native/component-notices/cairo/util/cairo-trace/COPYING-GPL-3",
       "bytes": 35147,
       "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "name": "third_party/native/component-notices/cairo/util/COPYING",
+      "bytes": 138,
+      "sha256": "008e976b6e5e7155ee24322073f42cab7cd6daf90bc2322f1d5c3aacab94111c"
     },
     {
       "name": "third_party/native/component-notices/cgif/LICENSE",
@@ -858,11 +848,6 @@
       "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067"
     },
     {
-      "name": "third_party/native/component-notices/freetype/LICENSE.TXT",
-      "bytes": 2149,
-      "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
-    },
-    {
       "name": "third_party/native/component-notices/freetype/docs/FTL.TXT",
       "bytes": 6743,
       "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
@@ -871,6 +856,11 @@
       "name": "third_party/native/component-notices/freetype/docs/GPLv2.TXT",
       "bytes": 17994,
       "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+    },
+    {
+      "name": "third_party/native/component-notices/freetype/LICENSE.TXT",
+      "bytes": 2149,
+      "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
     },
     {
       "name": "third_party/native/component-notices/fribidi/COPYING",
@@ -928,14 +918,14 @@
       "sha256": "278ee9bbb13ecb080a131c68927bd589a6a56fd5449ce25e8e594c858864830d"
     },
     {
-      "name": "third_party/native/component-notices/highway/LICENSE",
-      "bytes": 20785,
-      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
-    },
-    {
       "name": "third_party/native/component-notices/highway/debian/copyright",
       "bytes": 825,
       "sha256": "6e4ecf1cae052b678ea3178dd4b3652d581ee66a82d58db8800dd7d80dd6de76"
+    },
+    {
+      "name": "third_party/native/component-notices/highway/LICENSE",
+      "bytes": 20785,
+      "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
     },
     {
       "name": "third_party/native/component-notices/imagequant/COPYRIGHT",
@@ -1353,16 +1343,6 @@
       "sha256": "950d712c518a02fcb7cff96950aee304a1cc5283361712c980ea21e8d6d669a5"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/clap-4.6.7/LICENSE-APACHE",
-      "bytes": 11349,
-      "sha256": "249fdb6694467dd615b259f7ddde07be3f8ae5a72cecebb0e24f6629af4215fe"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/clap-4.6.7/LICENSE-MIT",
-      "bytes": 1062,
-      "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/clap_builder-4.6.7/LICENSE-APACHE",
       "bytes": 11349,
       "sha256": "249fdb6694467dd615b259f7ddde07be3f8ae5a72cecebb0e24f6629af4215fe"
@@ -1403,6 +1383,16 @@
       "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
     },
     {
+      "name": "third_party/native/component-notices/librsvg-crates/clap-4.6.7/LICENSE-APACHE",
+      "bytes": 11349,
+      "sha256": "249fdb6694467dd615b259f7ddde07be3f8ae5a72cecebb0e24f6629af4215fe"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/clap-4.6.7/LICENSE-MIT",
+      "bytes": 1062,
+      "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+    },
+    {
       "name": "third_party/native/component-notices/librsvg-crates/color_quant-1.1.0/LICENSE",
       "bytes": 1083,
       "sha256": "592dc80f1a865d20d61a2006a2d29ce34a2bc28cd7e868ab300fdeed6da154ca"
@@ -1428,16 +1418,6 @@
       "sha256": "73b9dc2e79c7308998dd30296e073aefaefb944a68fb89aa412c23c0edcabcaa"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/core-foundation-sys-0.8.7/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/core-foundation-sys-0.8.7/LICENSE-MIT",
-      "bytes": 1067,
-      "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/core_detect-1.0.0/LICENSE-APACHE",
       "bytes": 10846,
       "sha256": "769f80b5bcb42ed0af4e4d2fd74e1ac9bf843cb80c5a29219d1ef3544428a6bb"
@@ -1446,6 +1426,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/core_detect-1.0.0/LICENSE-MIT",
       "bytes": 1076,
       "sha256": "8569ebf6bf52937b961d9c9c934d8400a2bb6b09651a9afacbb3fc18fe5c09b1"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/core-foundation-sys-0.8.7/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/core-foundation-sys-0.8.7/LICENSE-MIT",
+      "bytes": 1067,
+      "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/cpubits-0.1.1/LICENSE-APACHE",
@@ -2123,17 +2113,12 @@
       "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/icu_normalizer-2.3.0/LICENSE",
-      "bytes": 2195,
-      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/icu_normalizer_data-2.3.0/LICENSE",
       "bytes": 2195,
       "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/icu_properties-2.3.0/LICENSE",
+      "name": "third_party/native/component-notices/librsvg-crates/icu_normalizer-2.3.0/LICENSE",
       "bytes": 2195,
       "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
@@ -2143,19 +2128,14 @@
       "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/icu_provider-2.3.1/LICENSE",
+      "name": "third_party/native/component-notices/librsvg-crates/icu_properties-2.3.0/LICENSE",
       "bytes": 2195,
       "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/idna-1.1.0/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/idna-1.1.0/LICENSE-MIT",
-      "bytes": 1072,
-      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
+      "name": "third_party/native/component-notices/librsvg-crates/icu_provider-2.3.1/LICENSE",
+      "bytes": 2195,
+      "sha256": "f367c1b8e1aa262435251e442901da4607b4650e0e63a026f5044473ecfb90f2"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/idna_adapter-1.2.2/LICENSE-APACHE",
@@ -2166,6 +2146,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/idna_adapter-1.2.2/LICENSE-MIT",
       "bytes": 1062,
       "sha256": "8b43ce8accd61e9d370b5ca9e9c4f953279b5c239926c62315b40e24df51b726"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/idna-1.1.0/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/idna-1.1.0/LICENSE-MIT",
+      "bytes": 1072,
+      "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/image-0.25.10/LICENSE-APACHE",
@@ -2513,6 +2503,21 @@
       "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
     },
     {
+      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/COPYRIGHT",
+      "bytes": 644,
+      "sha256": "d2a809eafabba137f508bea16a1b93d8ff24df7da6f38129d830db9bc118bdfe"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/LICENSE-APACHE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/LICENSE-MIT",
+      "bytes": 1053,
+      "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
+    },
+    {
       "name": "third_party/native/component-notices/librsvg-crates/multiversion-0.9.0/LICENSE-APACHE",
       "bytes": 11358,
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
@@ -2531,21 +2536,6 @@
       "name": "third_party/native/component-notices/librsvg-crates/multiversion-macros-0.9.0/LICENSE-MIT",
       "bytes": 1054,
       "sha256": "3c92a19e541755a97e51b4c963aa4335bbf93b64574dfbc36a5636c2899f3ab9"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/COPYRIGHT",
-      "bytes": 644,
-      "sha256": "d2a809eafabba137f508bea16a1b93d8ff24df7da6f38129d830db9bc118bdfe"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/LICENSE-APACHE",
-      "bytes": 11358,
-      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/multiversion_no_op-1.0.0/LICENSE-MIT",
-      "bytes": 1053,
-      "sha256": "3fa4ca83dcc9237839b1bdeb2e6d16bdfb5ec0c5ce42b24694d8bbf0dcbef72c"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/nalgebra-0.35.0/LICENSE",
@@ -2648,16 +2638,6 @@
       "sha256": "e353f37b12aefbb9f9b29490e837cfee05d9bda70804b3562839a3285c1df1e5"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/once_cell-1.21.4/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/once_cell-1.21.4/LICENSE-MIT",
-      "bytes": 1023,
-      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/once_cell_polyfill-1.70.2/LICENSE-APACHE",
       "bytes": 11358,
       "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
@@ -2666,6 +2646,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/once_cell_polyfill-1.70.2/LICENSE-MIT",
       "bytes": 1062,
       "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/once_cell-1.21.4/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/once_cell-1.21.4/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/oorandom-11.1.5/LICENSE-MIT",
@@ -2713,22 +2703,22 @@
       "sha256": "8cf56d10131ce201cf69ab74b111d3ebac1acca3833d7efb39ae357224b70edb"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/parking_lot-0.12.5/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/parking_lot-0.12.5/LICENSE-MIT",
-      "bytes": 1071,
-      "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/parking_lot_core-0.9.12/LICENSE-APACHE",
       "bytes": 10847,
       "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/parking_lot_core-0.9.12/LICENSE-MIT",
+      "bytes": 1071,
+      "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/parking_lot-0.12.5/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/parking_lot-0.12.5/LICENSE-MIT",
       "bytes": 1071,
       "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
     },
@@ -2741,11 +2731,6 @@
       "name": "third_party/native/component-notices/librsvg-crates/percent-encoding-2.3.2/LICENSE-MIT",
       "bytes": 1072,
       "sha256": "b38f11f6096706e6de553dabe2a7ed142d59b6fa8c97e290c67496154745cdd5"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/phf-0.13.1/LICENSE",
-      "bytes": 1099,
-      "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/phf_codegen-0.13.1/LICENSE",
@@ -2769,6 +2754,11 @@
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/phf_shared-0.14.0/LICENSE",
+      "bytes": 1099,
+      "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/phf-0.13.1/LICENSE",
       "bytes": 1099,
       "sha256": "0ab4d106b6faac07fb6a051815fd1b4d862d730895e2d7d7358c2f13565e7a38"
     },
@@ -2968,36 +2958,6 @@
       "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/COPYRIGHT",
-      "bytes": 569,
-      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/LICENSE-APACHE",
-      "bytes": 9724,
-      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/LICENSE-MIT",
-      "bytes": 1117,
-      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/COPYRIGHT",
-      "bytes": 569,
-      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/LICENSE-APACHE",
-      "bytes": 9724,
-      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/LICENSE-MIT",
-      "bytes": 1117,
-      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/rand_chacha-0.9.0/COPYRIGHT",
       "bytes": 569,
       "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
@@ -3054,6 +3014,36 @@
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/rand_xorshift-0.4.0/LICENSE-MIT",
+      "bytes": 1117,
+      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/COPYRIGHT",
+      "bytes": 569,
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/LICENSE-APACHE",
+      "bytes": 9724,
+      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.10.2/LICENSE-MIT",
+      "bytes": 1117,
+      "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/COPYRIGHT",
+      "bytes": 569,
+      "sha256": "90eb64f0279b0d9432accfa6023ff803bc4965212383697eee27a0f426d5f8d5"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/LICENSE-APACHE",
+      "bytes": 9724,
+      "sha256": "35242e7a83f69875e6edeff02291e688c97caafe2f8902e4e19b49d3e78b4cab"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rand-0.9.5/LICENSE-MIT",
       "bytes": 1117,
       "sha256": "209fbbe0ad52d9235e37badf9cadfe4dbdc87203179c0899e738b39ade42177b"
     },
@@ -3148,16 +3138,6 @@
       "sha256": "457b464bc0fba8a3d67d2458569104f5611869f0c1563a1a12d9c51a0bca9261"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/rustc-hash-2.1.3/LICENSE-APACHE",
-      "bytes": 9722,
-      "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/rustc-hash-2.1.3/LICENSE-MIT",
-      "bytes": 1022,
-      "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/rustc_version-0.4.1/LICENSE-APACHE",
       "bytes": 10847,
       "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
@@ -3166,6 +3146,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/rustc_version-0.4.1/LICENSE-MIT",
       "bytes": 1071,
       "sha256": "c9a75f18b9ab2927829a208fc6aa2cf4e63b8420887ba29cdb265d6619ae82d5"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rustc-hash-2.1.3/LICENSE-APACHE",
+      "bytes": 9722,
+      "sha256": "95bd3988beee069fa2848f648dab43cc6e0b2add2ad6bcb17360caf749802bcc"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/rustc-hash-2.1.3/LICENSE-MIT",
+      "bytes": 1022,
+      "sha256": "30fefc3a7d6a0041541858293bcbea2dde4caa4c0a5802f996a7f7e8c0085652"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/rustix-1.1.5/COPYRIGHT",
@@ -3253,16 +3243,6 @@
       "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/serde-1.0.229/LICENSE-APACHE",
-      "bytes": 9723,
-      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/serde-1.0.229/LICENSE-MIT",
-      "bytes": 1023,
-      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/serde_core-1.0.229/LICENSE-APACHE",
       "bytes": 9723,
       "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
@@ -3301,6 +3281,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/serde_spanned-1.1.1/LICENSE-MIT",
       "bytes": 1062,
       "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/serde-1.0.229/LICENSE-APACHE",
+      "bytes": 9723,
+      "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/serde-1.0.229/LICENSE-MIT",
+      "bytes": 1023,
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/servo_arc-0.4.3/LICENSE-APACHE",
@@ -3403,6 +3393,16 @@
       "sha256": "ea084a2373ebc1f0902c09266e7bf25a05ab3814c1805bb017ffa7308f90c061"
     },
     {
+      "name": "third_party/native/component-notices/librsvg-crates/string_cache_codegen-0.6.1/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/string_cache_codegen-0.6.1/LICENSE-MIT",
+      "bytes": 1067,
+      "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
+    },
+    {
       "name": "third_party/native/component-notices/librsvg-crates/string_cache-0.10.0/LICENSE-APACHE",
       "bytes": 10847,
       "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
@@ -3419,16 +3419,6 @@
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/string_cache-0.9.0/LICENSE-MIT",
-      "bytes": 1067,
-      "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/string_cache_codegen-0.6.1/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/string_cache_codegen-0.6.1/LICENSE-MIT",
       "bytes": 1067,
       "sha256": "62065228e42caebca7e7d7db1204cbb867033de5982ca4009928915e4095f3a3"
     },
@@ -3603,16 +3593,6 @@
       "sha256": "84b34dd7608f7fb9b17bd588a6bf392bf7de504e2716f024a77d89f1b145a151"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/toml-1.1.6+spec-1.1.0/LICENSE-APACHE",
-      "bytes": 11358,
-      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/toml-1.1.6+spec-1.1.0/LICENSE-MIT",
-      "bytes": 1062,
-      "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/toml_datetime-1.1.1+spec-1.1.0/LICENSE-APACHE",
       "bytes": 11358,
       "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
@@ -3639,6 +3619,16 @@
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/toml_writer-1.1.2+spec-1.1.0/LICENSE-MIT",
+      "bytes": 1062,
+      "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/toml-1.1.6+spec-1.1.0/LICENSE-APACHE",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/toml-1.1.6+spec-1.1.0/LICENSE-MIT",
       "bytes": 1062,
       "sha256": "6efb0476a1cc085077ed49357026d8c173bf33017278ef440f222fb9cbcb66e6"
     },
@@ -3763,11 +3753,6 @@
       "sha256": "e4c9b06fa850cb9b540a5e400e9f6394cf15efcf4098144de477d1d3dae10150"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/version-compare-0.2.1/LICENSE",
-      "bytes": 1055,
-      "sha256": "cedfcc7ace1639adb054bd4a19b6f8585ccb2429a60b4bf51bfeb0601058c22c"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/version_check-0.9.5/LICENSE-APACHE",
       "bytes": 10847,
       "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
@@ -3776,6 +3761,11 @@
       "name": "third_party/native/component-notices/librsvg-crates/version_check-0.9.5/LICENSE-MIT",
       "bytes": 1085,
       "sha256": "b7e650f3fce5c53249d1cdc608b54df156a97edd636cf9d23498d0cfe7aec63e"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/version-compare-0.2.1/LICENSE",
+      "bytes": 1055,
+      "sha256": "cedfcc7ace1639adb054bd4a19b6f8585ccb2429a60b4bf51bfeb0601058c22c"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/wait-timeout-0.2.1/LICENSE-APACHE",
@@ -3853,16 +3843,6 @@
       "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
     },
     {
-      "name": "third_party/native/component-notices/librsvg-crates/web-sys-0.3.105/LICENSE-APACHE",
-      "bytes": 10847,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
-    },
-    {
-      "name": "third_party/native/component-notices/librsvg-crates/web-sys-0.3.105/LICENSE-MIT",
-      "bytes": 1057,
-      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
-    },
-    {
       "name": "third_party/native/component-notices/librsvg-crates/web_atoms-0.2.6/LICENSE-APACHE",
       "bytes": 10847,
       "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
@@ -3871,6 +3851,16 @@
       "name": "third_party/native/component-notices/librsvg-crates/web_atoms-0.2.6/LICENSE-MIT",
       "bytes": 1076,
       "sha256": "86dd7f026f916daf7511e39951ad8ea8cf55a8db67ae64060dacf829761c18f3"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/web-sys-0.3.105/LICENSE-APACHE",
+      "bytes": 10847,
+      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+    },
+    {
+      "name": "third_party/native/component-notices/librsvg-crates/web-sys-0.3.105/LICENSE-MIT",
+      "bytes": 1057,
+      "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
     },
     {
       "name": "third_party/native/component-notices/librsvg-crates/weezl-0.1.12/LICENSE-APACHE",
@@ -4153,6 +4143,11 @@
       "sha256": "d201d14804d3bcd3b944147173175e4abfbd838b7c8069b6bd3452496bf13e6c"
     },
     {
+      "name": "third_party/native/component-notices/mozjpeg/java/doc/legal/LICENSE",
+      "bytes": 19274,
+      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+    },
+    {
       "name": "third_party/native/component-notices/mozjpeg/LICENSE.md",
       "bytes": 5620,
       "sha256": "96f5b328adbb78eeaaec6980d73fd558cb1e4d62560ed615646bc3cf5e532430"
@@ -4163,11 +4158,6 @@
       "sha256": "f4a85f8677ca4e41b185c0a9f7c31a30ddb9ce43c561483ee92ef12db37c2a10"
     },
     {
-      "name": "third_party/native/component-notices/mozjpeg/java/doc/legal/LICENSE",
-      "bytes": 19274,
-      "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
-    },
-    {
       "name": "third_party/native/component-notices/pango/COPYING",
       "bytes": 25292,
       "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5"
@@ -4176,11 +4166,6 @@
       "name": "third_party/native/component-notices/pixman/COPYING",
       "bytes": 2087,
       "sha256": "fac9270f0987b96ff4533fca3548c633e02083cbba4a0172a3b149b2e4019793"
-    },
-    {
-      "name": "third_party/native/component-notices/png/LICENSE",
-      "bytes": 5345,
-      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
     },
     {
       "name": "third_party/native/component-notices/png/ci/LICENSE_MIT.txt",
@@ -4208,6 +4193,11 @@
       "sha256": "1806f1f10d393e9e377b3a8d1b968452b54f1a90378f14eeef45426946ace330"
     },
     {
+      "name": "third_party/native/component-notices/png/LICENSE",
+      "bytes": 5345,
+      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+    },
+    {
       "name": "third_party/native/component-notices/proxy-libintl/COPYING",
       "bytes": 25292,
       "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5"
@@ -4221,11 +4211,6 @@
       "name": "third_party/native/component-notices/rsvg/librsvg-rebind/LICENSE",
       "bytes": 1023,
       "sha256": "f9c4c77baa3828004ee54b8a4f2db2e88ed44a6237a493965bf551fac0fcb62d"
-    },
-    {
-      "name": "third_party/native/component-notices/tiff/LICENSE.md",
-      "bytes": 2416,
-      "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade"
     },
     {
       "name": "third_party/native/component-notices/tiff/doc/html-prebuilt/_sources/project/license.rst.txt",
@@ -4243,6 +4228,16 @@
       "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
     },
     {
+      "name": "third_party/native/component-notices/tiff/LICENSE.md",
+      "bytes": 2416,
+      "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade"
+    },
+    {
+      "name": "third_party/native/component-notices/uhdr/adobe-hdr-gain-map-license/NOTICE",
+      "bytes": 66,
+      "sha256": "746d8c9c414b335bb7c9615918a15a6489a4dcc1c5c3aac2bda410d1072c332a"
+    },
+    {
       "name": "third_party/native/component-notices/uhdr/LICENSE",
       "bytes": 12566,
       "sha256": "c9247b5cb07866938643cc238292434e6f2af8642e1fce10771c0e4cc7909316"
@@ -4256,11 +4251,6 @@
       "name": "third_party/native/component-notices/uhdr/LICENSE-MIT",
       "bytes": 1088,
       "sha256": "029624bf1488ed7b8c92727d267c95f588c9c12fa6932c207884c2641a7e9d37"
-    },
-    {
-      "name": "third_party/native/component-notices/uhdr/adobe-hdr-gain-map-license/NOTICE",
-      "bytes": 66,
-      "sha256": "746d8c9c414b335bb7c9615918a15a6489a4dcc1c5c3aac2bda410d1072c332a"
     },
     {
       "name": "third_party/native/component-notices/uhdr/tests/data/LICENSE",
@@ -4278,14 +4268,14 @@
       "sha256": "d47e8390fb0d7ad4a18f26aedd6283c7ab6b5b4fabab536ccb4db7f9f6d90c08"
     },
     {
-      "name": "third_party/native/component-notices/vips/LICENSE",
-      "bytes": 26530,
-      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
-    },
-    {
       "name": "third_party/native/component-notices/vips/libvips/foreign/libnsgif/COPYING",
       "bytes": 1133,
       "sha256": "1469b759cf18e43c6e1b4ff892307d3962cbbb337ac497620d6690a219fad10c"
+    },
+    {
+      "name": "third_party/native/component-notices/vips/LICENSE",
+      "bytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
     },
     {
       "name": "third_party/native/component-notices/webp/COPYING",
@@ -4351,11 +4341,6 @@
       "name": "third_party/native/notice-supplements.json",
       "bytes": 31765,
       "sha256": "c17f2eb6ae6986d95260de4160c31b69dead4cfdcc3e589a8bc21012de03ec7b"
-    },
-    {
-      "name": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt",
-      "bytes": 1078,
-      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
     },
     {
       "name": "third_party/native/notice-supplements/anes-0.1.6/.cargo_vcs_info.json",
@@ -4503,16 +4488,6 @@
       "sha256": "aa7edf6f9b7b655eb93651604ab81980f972b841f85e39790dabcd28d6b2b4f5"
     },
     {
-      "name": "third_party/native/notice-supplements/objc-foundation-0.1.1/Cargo.toml",
-      "bytes": 446,
-      "sha256": "27c851b122617cfbf263603bcf05d637aaddbc87c12c2e78f8f91675739928a8"
-    },
-    {
-      "name": "third_party/native/notice-supplements/objc-foundation-0.1.1/src/lib.rs",
-      "bytes": 836,
-      "sha256": "f6dd421ba10b1a0e57fa10609ce2819ae491f63c08ee4b78a6884dcc5e742389"
-    },
-    {
       "name": "third_party/native/notice-supplements/objc_id-0.1.1/Cargo.toml",
       "bytes": 929,
       "sha256": "7d444ee847aa9b34cbe6cddeaf4001b28be86b28c2855e09c2e7fbfa797a66dd"
@@ -4531,6 +4506,16 @@
       "name": "third_party/native/notice-supplements/objc_id-0.1.1/src/lib.rs",
       "bytes": 1336,
       "sha256": "fdc6a052f18cc8d96f24848e107c73eac0ddf12882b69f6d40f09f4652c7fc73"
+    },
+    {
+      "name": "third_party/native/notice-supplements/objc-foundation-0.1.1/Cargo.toml",
+      "bytes": 446,
+      "sha256": "27c851b122617cfbf263603bcf05d637aaddbc87c12c2e78f8f91675739928a8"
+    },
+    {
+      "name": "third_party/native/notice-supplements/objc-foundation-0.1.1/src/lib.rs",
+      "bytes": 836,
+      "sha256": "f6dd421ba10b1a0e57fa10609ce2819ae491f63c08ee4b78a6884dcc5e742389"
     },
     {
       "name": "third_party/native/notice-supplements/r-efi-5.3.0/.cargo_vcs_info.json",
@@ -4608,14 +4593,19 @@
       "sha256": "db73828f4113fa8204f173e5b42b505e2bb1d800e88e83734944796590fbcb1f"
     },
     {
+      "name": "third_party/native/notice-supplements/selectors-0.40.0/lib.rs",
+      "bytes": 643,
+      "sha256": "d54c6e13e9e952dac17d209171df8657e3cae93beaddace4906150cdec8d02e9"
+    },
+    {
       "name": "third_party/native/notice-supplements/selectors-0.40.0/README.md",
       "bytes": 1171,
       "sha256": "74030a4dc8cf91e4c7d8eee9cfaff241860671724b70a346d74e3a997ebcf9ab"
     },
     {
-      "name": "third_party/native/notice-supplements/selectors-0.40.0/lib.rs",
-      "bytes": 643,
-      "sha256": "d54c6e13e9e952dac17d209171df8657e3cae93beaddace4906150cdec8d02e9"
+      "name": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt",
+      "bytes": 1078,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
     },
     {
       "name": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/Cargo.toml",
@@ -4698,16 +4688,6 @@
       "sha256": "bdbcdaa7858872393e9d6b216bbdc8a23e99d98dd6cdb7cda19458025b9e19fc"
     },
     {
-      "name": "third_party/native/provenance/glib/subprojects/gvdb/LICENSES/LGPL-2.1-or-later.txt",
-      "bytes": 26001,
-      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
-    },
-    {
-      "name": "third_party/native/provenance/glib/subprojects/gvdb/README.md",
-      "bytes": 1225,
-      "sha256": "f9ac3c82c4e4eb28d351482c3f0c748fe278a29e9d71f1b36e15d20b12108c73"
-    },
-    {
       "name": "third_party/native/provenance/glib/subprojects/gvdb/gvdb.doap",
       "bytes": 1708,
       "sha256": "8cde92f180b814ef3df92a7799d279b32e34fa70a12657edab42072857bbf3d9"
@@ -4748,6 +4728,11 @@
       "sha256": "9158d076d367f97a79bf7d62bad1e4605ca4c2528ed18faba4fcd955393b4378"
     },
     {
+      "name": "third_party/native/provenance/glib/subprojects/gvdb/LICENSES/LGPL-2.1-or-later.txt",
+      "bytes": 26001,
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    },
+    {
       "name": "third_party/native/provenance/glib/subprojects/gvdb/meson.build",
       "bytes": 464,
       "sha256": "38a33f574b74af09896311c1668653ae80f87e905fe364f03f65e6d535c77a46"
@@ -4756,6 +4741,11 @@
       "name": "third_party/native/provenance/glib/subprojects/gvdb/meson.options",
       "bytes": 180,
       "sha256": "543e1c36daa897ef0bcae85db779e2fcd7d6a2dbe727993cd5388dace6f3793b"
+    },
+    {
+      "name": "third_party/native/provenance/glib/subprojects/gvdb/README.md",
+      "bytes": 1225,
+      "sha256": "f9ac3c82c4e4eb28d351482c3f0c748fe278a29e9d71f1b36e15d20b12108c73"
     },
     {
       "name": "third_party/native/provenance/glib/subprojects/libffi.wrap",
@@ -4896,6 +4886,11 @@
       "name": "third_party/native/provenance/sharp/windows-build-import-headers.json",
       "bytes": 305,
       "sha256": "7e551afe1e7da50c2c036336d3a08ed3df5d645ea2e2a0d1f256bef403f6f212"
+    },
+    {
+      "name": "third_party/native/README.md",
+      "bytes": 10691,
+      "sha256": "fe5f3809025982d9ad5e481d28cae4987cb31bd3cdbbe7d0460282a2c31828fb"
     },
     {
       "name": "third_party/native/recipes/mxe/LICENSE.md",
@@ -5083,11 +5078,6 @@
       "sha256": "9bb0e80276236a4542f4247452f6ef05a4d7870207161c9c6587bab3727fdd9f"
     },
     {
-      "name": "third_party/native/recipes/sharp/LICENSE",
-      "bytes": 10273,
-      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
-    },
-    {
       "name": "third_party/native/recipes/sharp/install/build.js",
       "bytes": 860,
       "sha256": "fea92e0d55cce8692413c479021173aa1512304e1b849039949cbee9d6ceb1de"
@@ -5096,6 +5086,11 @@
       "name": "third_party/native/recipes/sharp/lib/libvips.mjs",
       "bytes": 5828,
       "sha256": "d9984601b0aafe44c393b29ce4b0712b1c40890c3d740d4fda49842a4ea5873d"
+    },
+    {
+      "name": "third_party/native/recipes/sharp/LICENSE",
+      "bytes": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
     },
     {
       "name": "third_party/native/recipes/sharp/npm/from-local-build.js",
@@ -5111,6 +5106,16 @@
       "name": "third_party/native/recipes/sharp/src/binding.gyp",
       "bytes": 10818,
       "sha256": "aa0750bba07e0de556ccdf1463e148a21e373ea43ac0ee622d23ad287890e658"
+    },
+    {
+      "name": "third_party/native/REPLACEMENT.md",
+      "bytes": 3622,
+      "sha256": "5ce54bd2148266913ff8b0e84d9cb1bd065ff3330adcd4943ec96bdcfc09b2d0"
+    },
+    {
+      "name": "third_party/native/SOURCE_ACCESS.md",
+      "bytes": 6727,
+      "sha256": "27e35d62090e6eaeae31cd5f1d1290f038e400359837fdd78b26c8240f9f2cda"
     },
     {
       "name": "third_party/native/source-access-verification.json",

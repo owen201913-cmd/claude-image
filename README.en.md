@@ -2,7 +2,7 @@
 
 Describe a scene in Claude Desktop chat, generate one image, and preview or download the original in the same conversation. Website operations run in the background by default. Basic use needs no API key, additional account, or manual prompt copying.
 
-[Download Claude Image 0.1.0](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) · [繁體中文](README.md) · [MIT license](LICENSE)
+[Download Claude Image 0.1.0](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) · [Traditional Chinese](README.zh-TW.md) · [MIT license](LICENSE)
 
 ## Install
 
@@ -48,3 +48,5 @@ Normal tests and CI use offline fixtures and controlled pages, without consuming
 Code is [MIT licensed](LICENSE); dependencies retain their own licenses. Image usage rights depend on the service's terms.
 
 [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) · [Testing](docs/testing.md) · [Changelog](CHANGELOG.md)
+
+Maintained by [Yutou](https://github.com/owen201913-cmd).
