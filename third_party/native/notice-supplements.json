@@ -1,0 +1,613 @@
+{
+  "checked_at": "2026-10-08T23:16:39.118212+00:00",
+  "status": "SUPPLEMENTAL_NOTICE_INPUTS_COMPLETE",
+  "packages": [
+    {
+      "name": "anes",
+      "version": "0.1.6",
+      "declared_license": "MIT OR Apache-2.0",
+      "authors": [
+        "Robert Vojta <rvojta@me.com>"
+      ],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "4b46cbb362ab8752921c97e041f5e366ee6297bd428a31275b9fcf1e380f7299",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/Cargo.toml",
+          "bytes": 1308,
+          "sha256": "42baf88fbaa6a98da7fd05e7e5359d5519616c07f3792cd6d706f813081df19b",
+          "archive": "third_party/native-source/librsvg-crates/anes-0.1.6.crate",
+          "archive_member": "anes-0.1.6/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/Cargo.toml.orig",
+          "bytes": 764,
+          "sha256": "84671432c1902276ce4b45501e10a7cc0b22f9b32dd0e39457e7968787a6555e",
+          "archive": "third_party/native-source/librsvg-crates/anes-0.1.6.crate",
+          "archive_member": "anes-0.1.6/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/.cargo_vcs_info.json",
+          "bytes": 74,
+          "sha256": "d45b3789e50d2d00a518a42350e69dacbc2a4cfb53bc094490d0de2664b1a4f8",
+          "archive": "third_party/native-source/librsvg-crates/anes-0.1.6.crate",
+          "archive_member": "anes-0.1.6/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/README.md",
+          "bytes": 3187,
+          "sha256": "b62c8554d456263c75b49d19bf668360789a1275d6bdd7cbe0364cb45427e711",
+          "archive": "third_party/native-source/librsvg-crates/anes-0.1.6.crate",
+          "archive_member": "anes-0.1.6/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/src/lib.rs",
+          "bytes": 2592,
+          "sha256": "39759e1e85c88c5268de2da4e11ed9acd9ba2ca14f64bfe89208453fa42e593d",
+          "archive": "third_party/native-source/librsvg-crates/anes-0.1.6.crate",
+          "archive_member": "anes-0.1.6/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/LICENSE-APACHE",
+          "bytes": 10847,
+          "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
+          "url": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-APACHE",
+          "pinned_source_match_sha256": "39759e1e85c88c5268de2da4e11ed9acd9ba2ca14f64bfe89208453fa42e593d"
+        },
+        {
+          "file": "third_party/native/notice-supplements/anes-0.1.6/LICENSE-MIT",
+          "bytes": 1023,
+          "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+          "url": "https://raw.githubusercontent.com/zrzka/anes-rs/378ac7461ecac29fde9e10df7b08359d1315a9ad/LICENSE-MIT",
+          "pinned_source_match_sha256": "39759e1e85c88c5268de2da4e11ed9acd9ba2ca14f64bfe89208453fa42e593d"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "block",
+      "version": "0.1.6",
+      "declared_license": "MIT",
+      "authors": [
+        "Steven Sheldon"
+      ],
+      "basis": "Original MIT declaration and Steven Sheldon author metadata retained. No standalone license/copyright notice exists in the crate or reviewed exact-version upstream tag; standard MIT template supplied separately, without asserting a new upstream copyright year or holder notice.",
+      "source_archive_sha256": "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/block-0.1.6/Cargo.toml",
+          "bytes": 531,
+          "sha256": "24df2f33b48c9e756a4f864f882c1ab07a159b6c2b790f45af2e8162499b6719",
+          "archive": "third_party/native-source/librsvg-crates/block-0.1.6.crate",
+          "archive_member": "block-0.1.6/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/block-0.1.6/README.md",
+          "bytes": 1264,
+          "sha256": "01c56329fa14f48ea1c9c7986c3660c41beeff2477f61c2d36bd8e666b9fc562",
+          "archive": "third_party/native-source/librsvg-crates/block-0.1.6.crate",
+          "archive_member": "block-0.1.6/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/block-0.1.6/src/lib.rs",
+          "bytes": 12647,
+          "sha256": "eb31678adf63b53109d9b94eba23699fd5f9ebfdb950f6e1a57ad51bb6a146fa",
+          "archive": "third_party/native-source/librsvg-crates/block-0.1.6.crate",
+          "archive_member": "block-0.1.6/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt"
+    },
+    {
+      "name": "defmt-parser",
+      "version": "1.0.0",
+      "declared_license": "MIT OR Apache-2.0",
+      "authors": [
+        "The Knurling-rs developers"
+      ],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "10d60334b3b2e7c9d91ef8150abfb6fa4c1c39ebbcf4a81c2e346aad939fee3e",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/Cargo.toml",
+          "bytes": 1129,
+          "sha256": "c4c4df5b09e53450267eacadf1f7f6a0d3d5fc463bc450e199f0d06eba8e6ab3",
+          "archive": "third_party/native-source/librsvg-crates/defmt-parser-1.0.0.crate",
+          "archive_member": "defmt-parser-1.0.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/Cargo.toml.orig",
+          "bytes": 540,
+          "sha256": "5d5c0e139cf4076aad5d1f8b992a7b8c9095f5443dab0f9d1da020101adea245",
+          "archive": "third_party/native-source/librsvg-crates/defmt-parser-1.0.0.crate",
+          "archive_member": "defmt-parser-1.0.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/.cargo_vcs_info.json",
+          "bytes": 100,
+          "sha256": "7ab8f01085721143c43db5db2528806f393df2058d03c5b8da20634e14886a05",
+          "archive": "third_party/native-source/librsvg-crates/defmt-parser-1.0.0.crate",
+          "archive_member": "defmt-parser-1.0.0/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/README.md",
+          "bytes": 1497,
+          "sha256": "a40aae66ea32ccd2b2c30ea976d4ac02fab1025a8dece8bfae6aa83bdcfd9c0e",
+          "archive": "third_party/native-source/librsvg-crates/defmt-parser-1.0.0.crate",
+          "archive_member": "defmt-parser-1.0.0/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/src/lib.rs",
+          "bytes": 12697,
+          "sha256": "0e0ec0ce038bceb7875717c118916c333a718e67d58c696ccd4f385e4c9feb98",
+          "archive": "third_party/native-source/librsvg-crates/defmt-parser-1.0.0.crate",
+          "archive_member": "defmt-parser-1.0.0/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/LICENSE-APACHE",
+          "bytes": 10850,
+          "sha256": "8173d5c29b4f956d532781d2b86e4e30f83e6b7878dce18c919451d6ba707c90",
+          "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+          "pinned_source_match_sha256": "0e0ec0ce038bceb7875717c118916c333a718e67d58c696ccd4f385e4c9feb98"
+        },
+        {
+          "file": "third_party/native/notice-supplements/defmt-parser-1.0.0/LICENSE-MIT",
+          "bytes": 1053,
+          "sha256": "2710a622a896bba67356913d4d0492cab5465f61b2ecce6d880aeb483834fb50",
+          "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+          "pinned_source_match_sha256": "0e0ec0ce038bceb7875717c118916c333a718e67d58c696ccd4f385e4c9feb98"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "difflib",
+      "version": "0.4.0",
+      "declared_license": "MIT",
+      "authors": [
+        "Dima Kudosh <dimakudosh@gmail.com>"
+      ],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "6184e33543162437515c2e2b48714794e37845ec9851711914eec9d308f6ebe8",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/difflib-0.4.0/Cargo.toml",
+          "bytes": 957,
+          "sha256": "aed0597f7b6014324ef49cb6502e541e45c35335785345d7d7a5cac46cc64c0f",
+          "archive": "third_party/native-source/librsvg-crates/difflib-0.4.0.crate",
+          "archive_member": "difflib-0.4.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/difflib-0.4.0/Cargo.toml.orig",
+          "bytes": 446,
+          "sha256": "d541194ec9dbbc63a8e371fcb0a20af128671a73bea0c4734e17e43ed6956e50",
+          "archive": "third_party/native-source/librsvg-crates/difflib-0.4.0.crate",
+          "archive_member": "difflib-0.4.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/difflib-0.4.0/src/lib.rs",
+          "bytes": 5806,
+          "sha256": "1d196166d4ee0d7eb6cfe127920c2a314a965098c7f08bef44be163528368bde",
+          "archive": "third_party/native-source/librsvg-crates/difflib-0.4.0.crate",
+          "archive_member": "difflib-0.4.0/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/difflib-0.4.0/LICENSE",
+          "bytes": 1086,
+          "sha256": "6725d1437fc6c77301f2ff0e7d52914cf4f9509213e1078dc77d9356dbe6eac5",
+          "url": "https://raw.githubusercontent.com/DimaKudosh/difflib/f035fb8e656f27119e23eca9d5b996df14f3885e/LICENSE",
+          "pinned_source_match_sha256": "1d196166d4ee0d7eb6cfe127920c2a314a965098c7f08bef44be163528368bde"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "malloc_buf",
+      "version": "0.0.6",
+      "declared_license": "MIT",
+      "authors": [
+        "Steven Sheldon"
+      ],
+      "basis": "Original MIT declaration and Steven Sheldon author metadata retained. No standalone license/copyright notice exists in the crate or reviewed exact-version upstream tag; standard MIT template supplied separately, without asserting a new upstream copyright year or holder notice.",
+      "source_archive_sha256": "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/malloc_buf-0.0.6/Cargo.toml",
+          "bytes": 349,
+          "sha256": "d87624d9d117489bd49dbaeb70077a0721e00ac2a76eb371faec818a92da5661",
+          "archive": "third_party/native-source/librsvg-crates/malloc_buf-0.0.6.crate",
+          "archive_member": "malloc_buf-0.0.6/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/malloc_buf-0.0.6/src/lib.rs",
+          "bytes": 2288,
+          "sha256": "1130dacbe045a20c1ea1e65e00976f18eb7513da492b07d538e7b1b5c64b8842",
+          "archive": "third_party/native-source/librsvg-crates/malloc_buf-0.0.6.crate",
+          "archive_member": "malloc_buf-0.0.6/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt"
+    },
+    {
+      "name": "mutants",
+      "version": "0.0.4",
+      "declared_license": "MIT",
+      "authors": [],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "add0ac067452ff1aca8c5002111bd6b1c895baee6e45fcbc44e0193aea17be56",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/Cargo.toml",
+          "bytes": 919,
+          "sha256": "855eab9c2aec95d6dba697a09f235ab4f72d2846850d46815a60c68f55af676b",
+          "archive": "third_party/native-source/librsvg-crates/mutants-0.0.4.crate",
+          "archive_member": "mutants-0.0.4/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/Cargo.toml.orig",
+          "bytes": 273,
+          "sha256": "23cbbe6340b1579bf367c8778d633ee5a5e814a2bac4e30f226b647db973b244",
+          "archive": "third_party/native-source/librsvg-crates/mutants-0.0.4.crate",
+          "archive_member": "mutants-0.0.4/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/.cargo_vcs_info.json",
+          "bytes": 107,
+          "sha256": "0d94837de8d4d5d8a2a6e3efb55051b761ef41228e0fceee1dc03a034518482c",
+          "archive": "third_party/native-source/librsvg-crates/mutants-0.0.4.crate",
+          "archive_member": "mutants-0.0.4/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/README.md",
+          "bytes": 331,
+          "sha256": "e8f8b2e3fbedcf0bc85c6c8559042b74aac1e405e171d7251c7c81e151b609ba",
+          "archive": "third_party/native-source/librsvg-crates/mutants-0.0.4.crate",
+          "archive_member": "mutants-0.0.4/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/src/lib.rs",
+          "bytes": 789,
+          "sha256": "aa7edf6f9b7b655eb93651604ab81980f972b841f85e39790dabcd28d6b2b4f5",
+          "archive": "third_party/native-source/librsvg-crates/mutants-0.0.4.crate",
+          "archive_member": "mutants-0.0.4/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/mutants-0.0.4/LICENSE",
+          "bytes": 1068,
+          "sha256": "479cbeb2506157776cf80abe31df18065d0fe50b5816ff77bfd75d5deb04ab5c",
+          "url": "https://raw.githubusercontent.com/sourcefrog/cargo-mutants/14011d08c42a7cd368698fe28f77eb4cd0b65bf0/LICENSE",
+          "pinned_source_match_sha256": "aa7edf6f9b7b655eb93651604ab81980f972b841f85e39790dabcd28d6b2b4f5"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "objc-foundation",
+      "version": "0.1.1",
+      "declared_license": "MIT",
+      "authors": [
+        "Steven Sheldon"
+      ],
+      "basis": "Original MIT declaration and Steven Sheldon author metadata retained. No standalone license/copyright notice exists in the crate or reviewed exact-version upstream tag; standard MIT template supplied separately, without asserting a new upstream copyright year or holder notice.",
+      "source_archive_sha256": "1add1b659e36c9607c7aab864a76c7a4c2760cd0cd2e120f3fb8b952c7e22bf9",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/objc-foundation-0.1.1/Cargo.toml",
+          "bytes": 446,
+          "sha256": "27c851b122617cfbf263603bcf05d637aaddbc87c12c2e78f8f91675739928a8",
+          "archive": "third_party/native-source/librsvg-crates/objc-foundation-0.1.1.crate",
+          "archive_member": "objc-foundation-0.1.1/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/objc-foundation-0.1.1/src/lib.rs",
+          "bytes": 836,
+          "sha256": "f6dd421ba10b1a0e57fa10609ce2819ae491f63c08ee4b78a6884dcc5e742389",
+          "archive": "third_party/native-source/librsvg-crates/objc-foundation-0.1.1.crate",
+          "archive_member": "objc-foundation-0.1.1/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt"
+    },
+    {
+      "name": "objc_id",
+      "version": "0.1.1",
+      "declared_license": "MIT",
+      "authors": [
+        "Steven Sheldon"
+      ],
+      "basis": "Original MIT declaration and Steven Sheldon author metadata retained. No standalone license/copyright notice exists in the crate or reviewed exact-version upstream tag; standard MIT template supplied separately, without asserting a new upstream copyright year or holder notice.",
+      "source_archive_sha256": "c92d4ddb4bd7b50d730c215ff871754d0da6b2178849f8a2a2ab69712d0c073b",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/objc_id-0.1.1/Cargo.toml",
+          "bytes": 929,
+          "sha256": "7d444ee847aa9b34cbe6cddeaf4001b28be86b28c2855e09c2e7fbfa797a66dd",
+          "archive": "third_party/native-source/librsvg-crates/objc_id-0.1.1.crate",
+          "archive_member": "objc_id-0.1.1/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/objc_id-0.1.1/Cargo.toml.orig",
+          "bytes": 400,
+          "sha256": "8a219f5fdd84d366e0298e543d5a0c537d68ff2aceb0459698c047c4ffc082dc",
+          "archive": "third_party/native-source/librsvg-crates/objc_id-0.1.1.crate",
+          "archive_member": "objc_id-0.1.1/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/objc_id-0.1.1/README.md",
+          "bytes": 1087,
+          "sha256": "09ef009a08879a901c3bbfa2aeb35813e084d841b721905e5ae2d1cd84f6063c",
+          "archive": "third_party/native-source/librsvg-crates/objc_id-0.1.1.crate",
+          "archive_member": "objc_id-0.1.1/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/objc_id-0.1.1/src/lib.rs",
+          "bytes": 1336,
+          "sha256": "fdc6a052f18cc8d96f24848e107c73eac0ddf12882b69f6d40f09f4652c7fc73",
+          "archive": "third_party/native-source/librsvg-crates/objc_id-0.1.1.crate",
+          "archive_member": "objc_id-0.1.1/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt"
+    },
+    {
+      "name": "r-efi",
+      "version": "5.3.0",
+      "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "authors": [],
+      "basis": "Original AUTHORS contains the MIT permission terms and author attribution; MIT option selected",
+      "source_archive_sha256": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/Cargo.toml",
+          "bytes": 1582,
+          "sha256": "dba000c0173b09b1e3b69afa42a715b5ab64355e6502ce6d9d1767c7845cf402",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/Cargo.toml.orig",
+          "bytes": 1226,
+          "sha256": "57b6d9b9a1b6524f6b4dcc1dd24970ac03e6959786a6cfedaec9ba52878b4d3e",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/.cargo_vcs_info.json",
+          "bytes": 94,
+          "sha256": "50e0c72ee0164f182d7b5db0213cdb1626bad950f2443b05d006c28c7f0641b5",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/README.md",
+          "bytes": 2919,
+          "sha256": "420f65fec3ba2e89d49da51b222d2881d26959037a7b7d3794143db4bd4627b1",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/AUTHORS",
+          "bytes": 3693,
+          "sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/AUTHORS"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-5.3.0/src/lib.rs",
+          "bytes": 9196,
+          "sha256": "289fdfa8384062616aa39b49c4094b93849ff0a2e5f6d7125b40124299a0837e",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-5.3.0.crate",
+          "archive_member": "r-efi-5.3.0/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "r-efi",
+      "version": "6.0.0",
+      "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+      "authors": [],
+      "basis": "Original AUTHORS contains the MIT permission terms and author attribution; MIT option selected",
+      "source_archive_sha256": "f8dcc9c7d52a811697d2151c701e0d08956f92b0e24136cf4cf27b57a6a0d9bf",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/Cargo.toml",
+          "bytes": 1548,
+          "sha256": "a021f9fb0645cc5de5770cf7f41594c1deff4b388eca933b289752aa52666829",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/Cargo.toml.orig",
+          "bytes": 1107,
+          "sha256": "b8e89c393831c2161b6d390bd40422910ac34f02903ad39edd85ec38d4513fef",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/.cargo_vcs_info.json",
+          "bytes": 94,
+          "sha256": "d8d0d853429b028d5e3c7b969f7c6b77b04e17486c57fac0759eb8083a359f3f",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/README.md",
+          "bytes": 2919,
+          "sha256": "420f65fec3ba2e89d49da51b222d2881d26959037a7b7d3794143db4bd4627b1",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/AUTHORS",
+          "bytes": 3733,
+          "sha256": "d027e91dbc9cdbb2f1190068e498bd6b61cff022b6a032b191021ba658d96111",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/AUTHORS"
+        },
+        {
+          "file": "third_party/native/notice-supplements/r-efi-6.0.0/src/lib.rs",
+          "bytes": 10091,
+          "sha256": "6215dd213f39f5180f7cfad599df1d17d50f089dc1ad0c840bc647a0bc421953",
+          "archive": "third_party/native-source/librsvg-crates/r-efi-6.0.0.crate",
+          "archive_member": "r-efi-6.0.0/src/lib.rs"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "selectors",
+      "version": "0.40.0",
+      "declared_license": "MPL-2.0",
+      "authors": [
+        "The Servo Project Developers"
+      ],
+      "basis": "Original MPL-2.0 source header and authors retained; full MPL text already retained with cssparser",
+      "source_archive_sha256": "eeee001a77567bb05e71652718d3ff76d8697c151ac523e68e9513194eb2b75a",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/selectors-0.40.0/Cargo.toml",
+          "bytes": 1705,
+          "sha256": "f883725ad3e3ce9100c7b236858942d9182581c1ae6fe1511b41aa130657589b",
+          "archive": "third_party/native-source/librsvg-crates/selectors-0.40.0.crate",
+          "archive_member": "selectors-0.40.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/selectors-0.40.0/Cargo.toml.orig",
+          "bytes": 868,
+          "sha256": "db73828f4113fa8204f173e5b42b505e2bb1d800e88e83734944796590fbcb1f",
+          "archive": "third_party/native-source/librsvg-crates/selectors-0.40.0.crate",
+          "archive_member": "selectors-0.40.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/selectors-0.40.0/.cargo_vcs_info.json",
+          "bytes": 103,
+          "sha256": "22be7410f4d55a02279a2c57ef7022a47a008172005e008da1db51cace59d7e5",
+          "archive": "third_party/native-source/librsvg-crates/selectors-0.40.0.crate",
+          "archive_member": "selectors-0.40.0/.cargo_vcs_info.json"
+        },
+        {
+          "file": "third_party/native/notice-supplements/selectors-0.40.0/README.md",
+          "bytes": 1171,
+          "sha256": "74030a4dc8cf91e4c7d8eee9cfaff241860671724b70a346d74e3a997ebcf9ab",
+          "archive": "third_party/native-source/librsvg-crates/selectors-0.40.0.crate",
+          "archive_member": "selectors-0.40.0/README.md"
+        },
+        {
+          "file": "third_party/native/notice-supplements/selectors-0.40.0/lib.rs",
+          "bytes": 643,
+          "sha256": "d54c6e13e9e952dac17d209171df8657e3cae93beaddace4906150cdec8d02e9",
+          "archive": "third_party/native-source/librsvg-crates/selectors-0.40.0.crate",
+          "archive_member": "selectors-0.40.0/lib.rs"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "winapi-i686-pc-windows-gnu",
+      "version": "0.4.0",
+      "declared_license": "MIT/Apache-2.0",
+      "authors": [
+        "Peter Atashian <retep998@gmail.com>"
+      ],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/Cargo.toml",
+          "bytes": 948,
+          "sha256": "9652222664ffc7e2a26fdcdebdce0917a455b39d8fbcbf451bf0b011a3067bf7",
+          "archive": "third_party/native-source/librsvg-crates/winapi-i686-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-i686-pc-windows-gnu-0.4.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/Cargo.toml.orig",
+          "bytes": 424,
+          "sha256": "5257d6f5283ab052b6af51f578a8c74e14c31deb53a7c6cd9e6fa16135d57eb3",
+          "archive": "third_party/native-source/librsvg-crates/winapi-i686-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-i686-pc-windows-gnu-0.4.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/src/lib.rs",
+          "bytes": 389,
+          "sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42",
+          "archive": "third_party/native-source/librsvg-crates/winapi-i686-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-i686-pc-windows-gnu-0.4.0/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/LICENSE-APACHE",
+          "bytes": 11357,
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/9497609ef44cc9bcd16cd2411c0ee6ccaf5483aa/LICENSE-APACHE",
+          "pinned_source_match_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-i686-pc-windows-gnu-0.4.0/LICENSE-MIT",
+          "bytes": 1068,
+          "sha256": "5b19674a1db628a475850a131956ed49521b744e3dda8f5a94141f9aba681219",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/9497609ef44cc9bcd16cd2411c0ee6ccaf5483aa/LICENSE-MIT",
+          "pinned_source_match_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42"
+        }
+      ],
+      "standard_mit_text": null
+    },
+    {
+      "name": "winapi-x86_64-pc-windows-gnu",
+      "version": "0.4.0",
+      "declared_license": "MIT/Apache-2.0",
+      "authors": [
+        "Peter Atashian <retep998@gmail.com>"
+      ],
+      "basis": "Fixed upstream full license text, with crate source byte match and VCS commit when available",
+      "source_archive_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+      "retained": [
+        {
+          "file": "third_party/native/notice-supplements/winapi-x86_64-pc-windows-gnu-0.4.0/Cargo.toml",
+          "bytes": 952,
+          "sha256": "a88605a11db5def9b6cf73398e83b3edb72228cb43ea935729fac5cd33cec22c",
+          "archive": "third_party/native-source/librsvg-crates/winapi-x86_64-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-x86_64-pc-windows-gnu-0.4.0/Cargo.toml"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-x86_64-pc-windows-gnu-0.4.0/Cargo.toml.orig",
+          "bytes": 428,
+          "sha256": "d158846cdb1259d606bfbeb050e386484cb18f14db41478568114eddb76ec43e",
+          "archive": "third_party/native-source/librsvg-crates/winapi-x86_64-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-x86_64-pc-windows-gnu-0.4.0/Cargo.toml.orig"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-x86_64-pc-windows-gnu-0.4.0/src/lib.rs",
+          "bytes": 389,
+          "sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42",
+          "archive": "third_party/native-source/librsvg-crates/winapi-x86_64-pc-windows-gnu-0.4.0.crate",
+          "archive_member": "winapi-x86_64-pc-windows-gnu-0.4.0/src/lib.rs"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-APACHE",
+          "bytes": 11357,
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/9497609ef44cc9bcd16cd2411c0ee6ccaf5483aa/LICENSE-APACHE",
+          "pinned_source_match_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42"
+        },
+        {
+          "file": "third_party/native/notice-supplements/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-MIT",
+          "bytes": 1068,
+          "sha256": "5b19674a1db628a475850a131956ed49521b744e3dda8f5a94141f9aba681219",
+          "url": "https://raw.githubusercontent.com/retep998/winapi-rs/9497609ef44cc9bcd16cd2411c0ee6ccaf5483aa/LICENSE-MIT",
+          "pinned_source_match_sha256": "79212a91f610f8a77aa6ed4cc77212c2531eeb35630388bf07323cc328fcca42"
+        }
+      ],
+      "standard_mit_text": null
+    }
+  ],
+  "standard_mit": {
+    "file": "third_party/native/notice-supplements/STANDARD-MIT-TEMPLATE.txt",
+    "bytes": 1078,
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/MIT.txt",
+    "scope": "SPDX standard text/template, not an upstream copyright attribution"
+  },
+  "network_bytes": 75815,
+  "network_budget_bytes": 2097152,
+  "scope": "Closes filename-collector omissions using original declarations/notices; not proof that all 357 crates link into this DLL or legal certification"
+}

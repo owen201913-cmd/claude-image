@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FIXED_UPSTREAM_BUILD_SOURCE_ACCESS",
+  "checked_at": "2026-10-08T23:16:53.703995+00:00",
+  "method": "HTTPS GET exact fixed archive; SHA-256 compared with reviewed cache",
+  "url": "https://codeload.github.com/libvips/build-win64-mxe/tar.gz/ef19ca09af2453d127453d677c849ccb37cf5694",
+  "bytes": 65766,
+  "sha256": "f52864572e6df6e549016369fdb2705aa195a837bd7bc8c52e45f42b59ef97a7",
+  "network_budget_bytes": 131072,
+  "redistributed": false,
+  "scope": "Access observation only; not an independent recipe license grant, native build, future retention promise or public release"
+}

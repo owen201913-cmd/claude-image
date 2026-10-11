@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-10-08T21:29:03.885143+00:00",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "Three Python collectors compile without executing builds or writing bytecode",
+      "status": "PASS"
+    },
+    {
+      "name": "Zero/negative/greater-than-100-MiB budgets rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Four concurrent readers cannot reserve above the aggregate byte cap; short reads refund unused reservation",
+      "status": "PASS"
+    },
+    {
+      "name": "Archive relative paths reject traversal, absolute, backslash and drive syntax",
+      "status": "PASS"
+    },
+    {
+      "name": "All 408 explicit source-bundle files independently rehashed and contained in native-source",
+      "status": "PASS"
+    },
+    {
+      "name": "Modified registry-integrity statement fails ECDSA verification",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Offline collector safety and hash/provenance evidence; no browser, Ngini submissions, Cargo/native build, replacement or publication",
+  "commands": [
+    "python scripts/native_rust_materials.py --max-bytes 104857600",
+    "python scripts/native-materials.py --fetch-sources --fetch-sharp-provenance",
+    "python .runtime/native-followup-dev14/check-integration.py"
+  ],
+  "crate_first_fetch": {
+    "started_at": "2026-10-08T21:22:13.061062+00:00",
+    "checked_at": "2026-10-08T21:23:40.219924+00:00",
+    "source_archives_checksum_matched": 357,
+    "source_archive_total_bytes": 38675419,
+    "new_downloaded_bytes": 38675419,
+    "aggregate_network_budget_bytes": 104857600
+  },
+  "sharp_packages_with_valid_registry_signatures": 4,
+  "source_cache_allowlist_count": 408,
+  "source_cache_allowlist_total_bytes": 214209386,
+  "collector_source_hashes": [
+    {
+      "file": "scripts/native-materials.py",
+      "sha256": "cda6c1c6b75a58f7c78d049d9c0793dbbbaf797c26568c3ad5bba0842bce2c44"
+    },
+    {
+      "file": "scripts/native_rust_materials.py",
+      "sha256": "9c831330b9bd1a20f5c62fe3d68b73a803eb13a52fbcc1affd6cc19b19e4019d"
+    },
+    {
+      "file": "scripts/native_sharp_materials.py",
+      "sha256": "de9564c22803b4b196edd694b13ddfd53d0a3421d3af9acbb6f7bb7fbae0b455"
+    },
+    {
+      "file": "scripts/verify-native-registry.mjs",
+      "sha256": "441d629e46e88ab485b94c9bde285fc841649d370c9a73c55c5da8911533b8f4"
+    }
+  ],
+  "collection_history": [
+    "An absent optional upstream build/dev.sh path stopped the first integrated collection; the fixed recipe no longer requests it.",
+    "The shared small-text tar reader omits files over 8 MiB; binary comparisons now explicitly read three bounded known members, including the 19 MiB main DLL. No unchecked or replaced DLL was used."
+  ],
+  "sigstore_full_verification": "NOT_RUN",
+  "native_rebuild_or_relink": "NOT_RUN"
+}

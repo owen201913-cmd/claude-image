@@ -1,0 +1,5 @@
+allowBuilds:
+  esbuild: true
+saveExact: true
+fetchTimeout: 20000
+fetchRetries: 0

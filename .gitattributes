@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve the original bytes covered by upstream source/notice checksums.
+third_party/** -text
+*.png binary
+*.jpg binary
+*.webp binary
+*.mcpb binary
+*.zip binary

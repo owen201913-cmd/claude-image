@@ -1,0 +1,35 @@
+name: 功能建議 / Feature request
+description: 說明使用情境、預期行為及現有流程的限制。
+title: '[Feature] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        專案範圍是本機瀏覽器、Ngini 免登入、一次一張、原語言及聊天交付。
+        不提供帳號共用、付費 API、代理輪換或額度繞過。不要貼私人提示詞或圖片；一般建議不需要真實生圖。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用情境與問題 / Use case and problem
+      description: 說明哪個現有步驟造成問題，避免私人資料。
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 預期行為 / Expected behavior
+      description: 說明使用者能完成什麼，以及可接受的限制。
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 如何驗證 / Validation (optional)
+      description: 優先提出不消耗額度的 fixture 或離線驗證。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隱私確認 / Privacy
+      options:
+        - label: 這份公開建議未包含私人提示詞、圖片、憑證或瀏覽器資料。
+          required: true

@@ -1,0 +1,79 @@
+name: 錯誤報告 / Bug report
+description: 提供版本、失敗階段及去識別步驟，不需要重新生圖。
+title: '[Bug] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        這是公開 issue。不要貼完整提示詞、私人圖片、profile、cookies、權杖、HAR、完整工具 JSON 或含個人名稱的路徑。
+        不要為報告重新生成或換 request_id 重送。fixture／既有結果可用於重現；安全問題請先看專案根目錄 SECURITY.md。
+  - type: textarea
+    id: versions
+    attributes:
+      label: 環境版本 / Versions
+      description: 只填版本與架構；未知請寫 unknown，不要填個人安裝路徑。
+      placeholder: |
+        Extension installed version:
+        Windows version / x64 or ARM64:
+        Claude Desktop version:
+        Edge or Chrome version:
+        Visible browser / Diagnostic fixture setting:
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 失敗階段 / Stage
+      options:
+        - 安裝或啟動 / Installation or startup
+        - 提交前 / Before submission
+        - 已提交或等待 / Submitted or waiting
+        - 下載或驗證 / Download or validation
+        - 聊天顯示或保存 / Chat display or saving
+        - 未知 / Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: submission
+    attributes:
+      label: 是否有新提交 / New submission
+      description: 不需要再測一次；依已觀察資訊填寫，沒有依據就選未知。
+      options:
+        - 沒有，只用 fixture 或讀取既有結果 / None
+        - 可能已提交 / Possibly submitted
+        - 已確認提交一次 / One confirmed submission
+        - 未知 / Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 去識別重現步驟 / Redacted steps
+      description: 優先描述 fixture 或既有結果的操作，不附原始提示詞、圖片或帳號資料。
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 預期與實際 / Expected and actual
+      description: 用文字說明，不需要貼聊天全文或截圖。
+    validations:
+      required: true
+  - type: input
+    id: error_code
+    attributes:
+      label: 錯誤碼 / Error code (optional)
+      description: 只填錯誤碼；沒有就留空，不附完整錯誤 JSON。
+      placeholder: BUSY / SUBMISSION_UNKNOWN / DELIVERY_BLOCKED
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 提交前確認 / Before posting
+      options:
+        - label: 我已移除私人提示詞、圖片、憑證、profile 和個人路徑。
+          required: true
+        - label: 我沒有為填寫這份報告而新增生圖或重送未知任務。
+          required: true

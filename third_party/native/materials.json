@@ -1,0 +1,1909 @@
+{
+  "checked_at": "2026-10-08T21:28:16.415803+00:00",
+  "status": "MATERIALS_COLLECTED_REVIEW_INCOMPLETE",
+  "scope": "Fixed upstream snapshots and binary/source/license evidence; no native rebuild, legal certification, publication or generation",
+  "native_package": "@img/sharp-win32-x64@0.35.5",
+  "project_license": "MIT (third-party licenses remain separate)",
+  "libvips_binary_sha256": "06dab07cc386748513337a31672b1d5269fbc770a14ff403080575665bf0813f",
+  "official_release_dll_matches_packaged_dependency": true,
+  "cpp_bridge": {
+    "official_release_sha256": "c9af1e56c17a4c8883a986c19818c72087aa730f6edb889faf69a13547b3dfaa",
+    "packaged_sha256": "25001dbd05305a0a29119ab49933622c70b4a20ea12ef1d5d20ca40181db53bf",
+    "byte_identical": false,
+    "scope": "Sharp binding.gyp deliberately builds a Windows MSVC C++ shared library from five upstream libvips C++ sources for std library ABI compatibility. sharp-libvips build/win.sh removes the ZIP C++ DLL. Different ZIP C++ bytes are expected and do not prove unknown source.",
+    "npm_source_build_provenance_status": "NPM_SRI_AND_REGISTRY_ECDSA_VERIFIED_CPP_SOURCE_PATH_RECONCILED",
+    "provenance_file": "third_party/native/provenance/sharp-provenance.json",
+    "native_rebuild_or_relink": "NOT_RUN"
+  },
+  "repositories": [
+    {
+      "repository": "libvips/build-win64-mxe",
+      "commit": "ef19ca09af2453d127453d677c849ccb37cf5694",
+      "url": "https://codeload.github.com/libvips/build-win64-mxe/tar.gz/ef19ca09af2453d127453d677c849ccb37cf5694",
+      "archive_sha256": "f52864572e6df6e549016369fdb2705aa195a837bd7bc8c52e45f42b59ef97a7",
+      "archive_bytes": 65766
+    },
+    {
+      "repository": "kleisauke/mxe",
+      "commit": "c36160b231e66e1cbe032ed54aef7617e8b259da",
+      "url": "https://codeload.github.com/kleisauke/mxe/tar.gz/c36160b231e66e1cbe032ed54aef7617e8b259da",
+      "archive_sha256": "b71d435d977b64f56b048c948a7649892fc36a1977ecd30ca0e7fe3c21b2f607",
+      "archive_bytes": 2666414
+    }
+  ],
+  "mxe_branch_observation": {
+    "branch": "llvm-mingw-20260924",
+    "observed_commit": "c36160b231e66e1cbe032ed54aef7617e8b259da",
+    "original_release_container_digest_verified": false,
+    "warning": "Upstream build references a branch and latest container; observed current commit is pinned for review, not proven original CI container provenance."
+  },
+  "retained_materials": [
+    {
+      "file": "third_party/native/upstream/sharp-win32-x64-README.md",
+      "bytes": 4913,
+      "sha256": "3d083ada5ebafe1e6c227daa7b061d4254b61df4a3901c359ffdeac817ce5866"
+    },
+    {
+      "file": "third_party/native/upstream/sharp-win32-x64-LICENSE.txt",
+      "bytes": 10464,
+      "sha256": "dc1f5d2d43c5531dfe0acaf4e950ea5dbe3e61e1850cf0e983bda7efc10d6693"
+    },
+    {
+      "file": "third_party/native/upstream/sharp-win32-x64-versions.json",
+      "bytes": 596,
+      "sha256": "e2611d5d854815a8b33c8a3d2ec649511a9596ccf16844e8eae7cf81e79881c4"
+    },
+    {
+      "file": "third_party/native/licenses/LGPL-2.1-libvips.txt",
+      "bytes": 26530,
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+    },
+    {
+      "file": "third_party/native/upstream/libvips-README.md",
+      "bytes": 10176,
+      "sha256": "e173c8181f47e84df8ae2b7932030d059b73862747bd069fd5cb9e17810466fc"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/README.md",
+      "bytes": 11708,
+      "sha256": "cb5421ac274ded1d0a6543f0427fa75b4a8b58d2f94db2cb4c9cf3ef0d8c9ed7"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build.sh",
+      "bytes": 7471,
+      "sha256": "21f8ae16447d9987493519ac33d91344ffc7783eb70dc64965eea926f7d64cfa"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/aom.mk",
+      "bytes": 1291,
+      "sha256": "18d311902b6dcfc7966f9a4e11e7b5d96944e7fe91bb0d64f035c601f405d0bc"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/cgif.mk",
+      "bytes": 690,
+      "sha256": "f7d6111f28203deb06b482c39d06ddd6b6f72207083818a86c7a363e46914be5"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/highway.mk",
+      "bytes": 881,
+      "sha256": "9b1a766fd12253cecee01f7c460dc9fd0178aa9182c65e2b9a0985b15f51e6c0"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/libdicom.mk",
+      "bytes": 808,
+      "sha256": "28571a33ddb8414873ea08fd8b4016bf2661b02e0e039f9b44d27b318546569d"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/libheif.mk",
+      "bytes": 1052,
+      "sha256": "d1b78104a9618777f41ae155fe4436b1630f3f94056262feb4694b634d3a9744"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/libimagequant.mk",
+      "bytes": 652,
+      "sha256": "effe30fe26814beb688a8cb7877515e7051995c806c4fa09726f5c21b6c6013c"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/libjxl.mk",
+      "bytes": 1221,
+      "sha256": "9c440807d06a96bd90ef659c49002119052298db15574cda956a2309b156b19b"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/nifticlib.mk",
+      "bytes": 1029,
+      "sha256": "7dd1bb5d868f1262776d187a43ac0bedbddcbfeefb9fc0ba00eb7a2d4a2a2675"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/nip4.mk",
+      "bytes": 1482,
+      "sha256": "7b1cad4579603430365818dc7e7284f245f2477f694ac0c505d44cd8d0a91397"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/openslide.mk",
+      "bytes": 744,
+      "sha256": "0500e58a4aace3fd75180e8e734caa6fe5d754eec6e54050a89c636d0d47a8cf"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/overrides.mk",
+      "bytes": 29781,
+      "sha256": "28539a125817f0f9273954220997fd1b6c5f29f5874d957ef8fba6478c0b3eba"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/aom-3-fixes.patch",
+      "bytes": 1522,
+      "sha256": "c4f15c4be72f9df33c7af874486227961e7e7263b03d0f6e2907d753fa9f31aa"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/cairo-1-fixes.patch",
+      "bytes": 20050,
+      "sha256": "c524c434ab90f8e24e07e182181156e62dc843ec0533b7e7a8b45bb3182fb35d"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/cairo-1-nanoserver-compat.patch",
+      "bytes": 1201,
+      "sha256": "e95f8667e8f0d77110f12683b69bfb634a399fe679f6b66fa2d98b1710c32221"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/fontconfig-2-fixes.patch",
+      "bytes": 2312,
+      "sha256": "452d8b94ea7a17f3b0abbe858d799fd774fe0097e21f639f412b3b00662c3a73"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/gdk-pixbuf-2-fixes.patch",
+      "bytes": 3162,
+      "sha256": "482901be8e32a92e9dca5cd0f555ae9ce961300a4b98a62f6e3bf8ce0aa64451"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/glib-2-dllexport-static.patch",
+      "bytes": 1193,
+      "sha256": "65fd140acf960794197b0b38cbc234c5c08f211d8ab679b1695df456250b8a76"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/glib-2-fixes.patch",
+      "bytes": 2146,
+      "sha256": "9778d07b7cb8bdcedd474f345f85ae844542cb34fb38ec6c72cf3615a12b03c5"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/glib-2-without-gregex.patch",
+      "bytes": 7759,
+      "sha256": "76fa1964bff4a34cd29057bd411d7a5920b18da78ab8810fc0682531b5ea3d05"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/glib-2-without-win32appinfo.patch",
+      "bytes": 1146,
+      "sha256": "66dbbd92404b11316d7bc896889c531697328d645af989e5a0c11aab76fbbca4"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/imagemagick-7-disable-network.patch",
+      "bytes": 7317,
+      "sha256": "9be56ce8eb0de2d369aacd5633b09fe500fd955c569a92ef69ef75f3a3c51a32"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/imath-3-fixes.patch",
+      "bytes": 840,
+      "sha256": "785b884d4963a3e522e5d831ebda4a5e0ea9ee281a9e0df6affa13b0e7711f47"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/libheif-1-fixes.patch",
+      "bytes": 1289,
+      "sha256": "846ad069dca01304f6fcbe92ff29636b4183d8eef3d275349dc91cedc8a313c7"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/libjpeg-turbo-3-fixes.patch",
+      "bytes": 1807,
+      "sha256": "159b0704488ea123f6d57febbd908507868c5875bc8a7837ca8eca80d1541b29"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/libraw-0.22-fixes.patch",
+      "bytes": 1270,
+      "sha256": "169e92a78762d44751e78c7c8a1305d0f19d8614aff759d3d06d47c4979eb2c1"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/librsvg-2-fixes.patch",
+      "bytes": 10985,
+      "sha256": "18a577fb3512151197d8b8dca424fcf7c63974131723d2ad98bb527b832969d3"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/libtool-2-fixes.patch",
+      "bytes": 2487,
+      "sha256": "66912b00a1da59a5f58d71a95def05e1b48cd8b49bbd01cffff49d4e8daff030"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/libxml2-2-fixes.patch",
+      "bytes": 994,
+      "sha256": "2ebe6f968434e876624111b0df55779acd1f160221b791dec6b4ff9b4c989451"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/matio-1-fixes.patch",
+      "bytes": 819,
+      "sha256": "9bc50605ac2a95fa066e0e095d625ba363f379ac7fe00f4a7d9418a84ab13e36"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/nifticlib-3-fixes.patch",
+      "bytes": 8286,
+      "sha256": "bc6f13605ea0d46ada65385c9148c0c90ce213841c61b827d07c6b526cfe5bbf"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/openexr-2-fixes.patch",
+      "bytes": 3030,
+      "sha256": "cd60a6b627c484fbf0e6864912ca7e431277ff2586fefb81d24b7a868fade5fe"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/openslide-4-without-gregex.patch",
+      "bytes": 3540,
+      "sha256": "cd643e3d034e313e13c14ae2da8af2ebd2ce10f9dee5f53319e214d0ff678747"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/poppler-26-fixes.patch",
+      "bytes": 748,
+      "sha256": "df6a0c0780bd196f757925841aed26ed14871ded2584cc8197bc9170cd91f248"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/sqlite-3-fixes.patch",
+      "bytes": 1243,
+      "sha256": "3f84717c76922434368b1b8bf54b6dad649ca35ee79f00028fa5a4db1b3a9e9a"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/uhdr-1-fixes.patch",
+      "bytes": 6224,
+      "sha256": "c308dd7c65a2bee0fea7471a71916dea1a5f48d698ebedeff41904b38074484b"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/patches/zlib-1-fixes.patch",
+      "bytes": 1596,
+      "sha256": "203e1df29951bd860c72384c4da06cb3d3935a35e7367f720136da6d35b357d3"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/all-deps/overrides.mk",
+      "bytes": 795,
+      "sha256": "102ef4514d25e2dd1f56ebd03ee9647b5ed1fc633b3048145b0adcbd5e3036b5"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/all-deps/patches/vips-8-dlldir-as-libdir.patch",
+      "bytes": 2852,
+      "sha256": "fe5bcc0e041324873cd8917aa0e06832d5d231046433bf7a6a45cc429f5fc3e8"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/all-deps/vips-all.mk",
+      "bytes": 3902,
+      "sha256": "8fb8c4992977f16cecbc8782fd4a495411130d344dbd39b5ed28f1eda454f591"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/ffi-compat/overrides.mk",
+      "bytes": 395,
+      "sha256": "948558c83718acbe5726ccc547c2b6295da23dc51245cb15c2040cf49f0431f5"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/ffi-compat/patches/glib-2-static.patch",
+      "bytes": 2198,
+      "sha256": "a1b3cb835461cc0091854b9c3ad63f5960f3671be80f89f45bf981ef2a669578"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/gtk4/directx-headers.mk",
+      "bytes": 704,
+      "sha256": "0466b8492a4b8be908c3dd03c8388d07692e8f39bf343b229d7a7cfa41c5ff60"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/gtk4/overrides.mk",
+      "bytes": 4296,
+      "sha256": "fc0b41b454a8ff41add8a35c7f60517454b81cf97925e205b64bc16d015f64e0"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/gtk4/patches/gtk-4-fixes.patch",
+      "bytes": 1780,
+      "sha256": "68f968567bfcc8faf3667836221a1e4fa1ceee800c0823fce48bbeea39403c6b"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/hevc-deps/libde265.mk",
+      "bytes": 774,
+      "sha256": "5cdb031c60db3c55805045f113626e52c8e2963b6e2ec30cd56ef548a606c0c7"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/hevc-deps/overrides.mk",
+      "bytes": 3006,
+      "sha256": "22f31ead3b8f6473c758fab69973d87281c60aa2d7ed03f9653a30372dd2a1a3"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/hevc-deps/patches/x265-4-fixes-crlf.patch",
+      "bytes": 1036,
+      "sha256": "834953e5467184f892d6d78da8d2cc93512fda606b2e3560b56993a3208b35d4"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/jpegli/jpegli.mk",
+      "bytes": 1281,
+      "sha256": "b974096fa7f8067d2f4edca960ed58e3b0cbb298cb1f187b6df20238b545a655"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/jpegli/overrides.mk",
+      "bytes": 695,
+      "sha256": "9780b2411f98d0dfbf611e08e967cd73135379e25d2a9d7dd766cfa19fcac690"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/jpegli/patches/jpegli-0.12-fixes.patch",
+      "bytes": 19103,
+      "sha256": "29a0504361cf47eaa20717ae6bfdc533715f9df5b0c705b399637a6d6ca49037"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/mozjpeg/mozjpeg.mk",
+      "bytes": 1064,
+      "sha256": "d5e7af68bce6e54b2fd7b50a5f70fa14aea43eff6ab044c7ac9256e1f672641f"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/mozjpeg/overrides.mk",
+      "bytes": 883,
+      "sha256": "e0c1de0e84ed7d46318452cdaead6111862bcd9b7ef37fa3b37f0b208cb9f7b4"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/mozjpeg/patches/mozjpeg-4-fixes.patch",
+      "bytes": 2420,
+      "sha256": "7952f72840a29a815740bbcdbf986903a800a97af3685d2654f0d020641e89c1"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/mozjpeg/patches/mozjpeg-4-pr-453.patch",
+      "bytes": 7615,
+      "sha256": "3ddb71285d43dde5c75a0080cc62cbc158d32359af132b8314e76b85b9205764"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/nightly/overrides.mk",
+      "bytes": 215,
+      "sha256": "44c54d98c92f9290aa232f95e0399a4b79cf5cebb47e765f4c92fb9dc161f19d"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/proxy-libintl/overrides.mk",
+      "bytes": 283,
+      "sha256": "7743f7bb299ef280d5f5718341de423a2be5c8553fb88b79cfd0d066a0e899fc"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/proxy-libintl/patches/proxy-libintl-1-fixes.patch",
+      "bytes": 782,
+      "sha256": "a8386926e1023d3183a48a3f69687ab13ec5639ad07496cdf5f045f0993fb0fd"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/proxy-libintl/proxy-libintl.mk",
+      "bytes": 675,
+      "sha256": "3322209995d2a56e84998007c6ef8aa7e3d87200490bff1c032e5c6caae04836"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/web-deps/overrides.mk",
+      "bytes": 462,
+      "sha256": "73175da2b6562abdead5ad66544858d83e6ce74cec62ee49a8619a93805388bb"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/web-deps/vips-web.mk",
+      "bytes": 2664,
+      "sha256": "faffedbbb6d83ac063c48378656efffdf3445c7f2797281cefd0ca1860b21477"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/zlib-ng/overrides.mk",
+      "bytes": 1385,
+      "sha256": "ac2b54ad1429cca7486c1848f7709759adb6248df9ea3739e979fd58ee87dfb0"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/zlib-ng/patches/zlib-ng-2-fixes.patch",
+      "bytes": 1031,
+      "sha256": "22f110cc8b1566db3726d0d448ab04cd11297f062368bdd77971adf9455b852b"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/plugins/zlib-ng/zlib-ng.mk",
+      "bytes": 772,
+      "sha256": "6a5b902348cd00b68adfc436f2a349bcd0b44ed9a7b7289a21cf8c07e8c9a647"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/settings/debug.mk",
+      "bytes": 1179,
+      "sha256": "5adf14e1c147437d3f234f53f8a723c27a7e68e3daeb854759a621685939ea21"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/settings/release.mk",
+      "bytes": 1319,
+      "sha256": "39a2f1d06a7d6d2cc0c0756af7b646234e681ce752907f815d1c1f5075c3c2d6"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/uhdr.mk",
+      "bytes": 1023,
+      "sha256": "c7098df2dc28bcdcba9f89d1ec911a2811ab9234249c4c2b613130e44b6080cd"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/vips.mk",
+      "bytes": 1189,
+      "sha256": "328890cba73093781a93ad2d186acd658db60eb5d6660b3745e7b946fdaefbe7"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/build/vipsdisp.mk",
+      "bytes": 1269,
+      "sha256": "616a27d350992f491940dd616e684156b8f7c3a980d69fd0e29003d3298f4efc"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/container/Dockerfile",
+      "bytes": 925,
+      "sha256": "0817cff4f940ccf477997f93b6833f839e9ddaa9a0a865cdf64a96df510de747"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/container/base.Dockerfile",
+      "bytes": 854,
+      "sha256": "a3513b3295687198d5bbdda5e1677d6b023cfa45c9fc6600a93903faa086cf32"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/packaging/gendeflibs.sh",
+      "bytes": 1300,
+      "sha256": "2ecff5d96ee7eecbb98bd1209456dbe1e5875ea796780d2ba5c0efd29cb6c6ee"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/packaging/package-gtk.sh",
+      "bytes": 4737,
+      "sha256": "9c2bac9519249d48c29bb15102abfe1c82059815468f9cba4c249c0784ffcc41"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/packaging/package-vips.sh",
+      "bytes": 4923,
+      "sha256": "bd10062a2a507134ae4d610077a020c0a05348f7262e0e6d809ab75ba56fa389"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/packaging/package.sh",
+      "bytes": 613,
+      "sha256": "0e3d0c08f9ca6f1e41997a58d38b766db368021edc4ca27201adc4494ed22f27"
+    },
+    {
+      "file": "third_party/native/recipes/build-win64-mxe/packaging/variables.sh",
+      "bytes": 1057,
+      "sha256": "8054b721966778edbacc76fbcecac6d9061583fbb7c5d3ffefe6ae4c2aca8057"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/LICENSE.md",
+      "bytes": 2240,
+      "sha256": "8635b0a1680ec574e1965e3b0dd3cc69ef7bfb0ff4a60d9663d0e56d9fece1ff"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/Makefile",
+      "bytes": 49039,
+      "sha256": "3a94bd4e6f791f75c33f5c0029ddb7e3e3996354102a3ad0925c223ac87401e4"
+    },
+    {
+      "file": "third_party/native/licenses/GPL-3.0.txt",
+      "url": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "third_party/native/licenses/LGPL-3.0.txt",
+      "url": "https://www.gnu.org/licenses/lgpl-3.0.txt",
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libarchive.mk",
+      "bytes": 1383,
+      "sha256": "b86fbf2bb634ea69067f61d479fffb5cafb1053594e1f981ec254de337bf6af2"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libarchive-1-fixes.patch",
+      "bytes": 688,
+      "sha256": "686aed04696360169e3d5fa182b052da53d32730a91c1bab9545759088390f37"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/cairo.mk",
+      "bytes": 1334,
+      "sha256": "164caa6db2cf36c8f0b8eb2d05e238fc54982fcabb2f259eab27e6c5a4ca93a3"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/cairo-1-fixes.patch",
+      "bytes": 2555,
+      "sha256": "58398aa2163b66819ad2f121473e08c740e73f5d39b54a29a832c53e3aca4c8b"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libexif.mk",
+      "bytes": 813,
+      "sha256": "54bf88456972afed0004c9759a621cb5b9345613eed4c0ca41f1c2757e1a48aa"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libexif-1-fixes.patch",
+      "bytes": 633,
+      "sha256": "bbdaee83474ff0910e2c35c137b21fb51c8e2a0b318520dd9894cbf4974bb903"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/expat.mk",
+      "bytes": 1232,
+      "sha256": "4b3c315840a5c5966fdcb993c0436ce1e8849aa03fea4821ef81941eba39f29a"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libffi.mk",
+      "bytes": 1119,
+      "sha256": "ca19c05d6470f2c52eb0f62879d5614d0d0a0499837188e0ab7f57b0b52a2812"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/fontconfig.mk",
+      "bytes": 1079,
+      "sha256": "669430e8d1e1a3451373eb22040ffe5cfee7dc2b772e059d1c1d0b8d8f0f3905"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/fontconfig-1-fixes.patch",
+      "bytes": 748,
+      "sha256": "93bed878801d73a5658ee8b6d8318a590a36eb39a5eb3818cf4d6d92fdcae69b"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/freetype.mk",
+      "bytes": 1845,
+      "sha256": "f6a4a534d1fba723809ee0a9bf624a8b54648cf77a0e63e54c492770728b058e"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/fribidi.mk",
+      "bytes": 625,
+      "sha256": "6c34bbfdbb443bbc93e48a511b1c6f510499964c4fb5e3e1bb838d9bfa32319e"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/glib.mk",
+      "bytes": 2164,
+      "sha256": "98af6260efc254ca50eaa6e9b4ef61c1920642d9ac1487aef4ddb1093bb44427"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/glib-1-fixes.patch",
+      "bytes": 1809,
+      "sha256": "6966cb9a1e351e04f9ae913b457aba60a9251ad7d049ec03bb3c46279d8e5db1"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/harfbuzz.mk",
+      "bytes": 942,
+      "sha256": "ffd03021fb70e7520d1934c5bf3e9382baa8e5a8ac8e76491547542492147984"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/harfbuzz-1-fixes.patch",
+      "bytes": 1221,
+      "sha256": "0dfc793c67564461328b5a8f2152d063572a34e613d82247567410818abd0c97"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/lcms.mk",
+      "bytes": 1050,
+      "sha256": "6af44f4f8b6466b78c29da654b8bb484db34f3624e42f3e931169e376eb12ee1"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/lcms-1-fixes.patch",
+      "bytes": 687,
+      "sha256": "b1a8cc01b8674550459e62a1339b391a2eec033c6f2238402b114ab669b575c2"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/pango.mk",
+      "bytes": 1097,
+      "sha256": "c6c2b4bbf35226ba64759f89d5f6fa0f1608017eb7aec64c8211ff8d894a4cae"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/pixman.mk",
+      "bytes": 944,
+      "sha256": "cf8b9da9ca119f9051f09b71a3739611f7c1f7102a93424f9aabd595b9f1d5a1"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libpng.mk",
+      "bytes": 1320,
+      "sha256": "32d04c88afe7257e2448166705373823eb3713d398e817e14e0d4ce90bcf1e3b"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/librsvg.mk",
+      "bytes": 1417,
+      "sha256": "0a36007a64dc9b7d02ee247bf61dc049d3c7a9a690fcc37b0e5bcf051678cf78"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/librsvg-1-fixes.patch",
+      "bytes": 6649,
+      "sha256": "e1b72dda94492d2f27001ca4bddd42f1df031a4d7087776c7c594ec4f8fdbccf"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/tiff.mk",
+      "bytes": 889,
+      "sha256": "d2e33e65ba3837bd5902612a7011a615fce72f0091963d482c783a05adfc70e7"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/tiff-1-fixes.patch",
+      "bytes": 862,
+      "sha256": "773437de714741b7fbf4df982e21093f23ecdb0dd6c57b48564dbb72a4536d54"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libwebp.mk",
+      "bytes": 946,
+      "sha256": "92e1c4ead0476ae09992263a731e15000685b381d6fed950d6d08ba630eaea2d"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libxml2.mk",
+      "bytes": 1823,
+      "sha256": "9133054d429824135e85669b5699a3c4028ccb2d4acf2559cdfcb0c60d31f6f4"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/src/libxml2-1-fixes.patch",
+      "bytes": 742,
+      "sha256": "068c1d5cb3f4a7c1453925f71753f6fe5a32df307e327e3732303e27555ad50a"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/.gitignore",
+      "bytes": 33,
+      "sha256": "d6948349e5cc750a0b1e70e76ff22251454ef0fe26e5ac77dbfe2aa2fcdae423"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/COPYING",
+      "bytes": 26445,
+      "sha256": "bdbcdaa7858872393e9d6b216bbdc8a23e99d98dd6cdb7cda19458025b9e19fc"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/LICENSES/LGPL-2.1-or-later.txt",
+      "bytes": 26001,
+      "sha256": "5749785c8bdefafcb5d798270ed0a967036fe2ca63dcedade1627565dfef81d2"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/README.md",
+      "bytes": 1225,
+      "sha256": "f9ac3c82c4e4eb28d351482c3f0c748fe278a29e9d71f1b36e15d20b12108c73"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/gvdb-builder.c",
+      "bytes": 17029,
+      "sha256": "a44c7c1523e2c62933722fb6c748bae9d22068d0e5b67c7413fe8285a296ba76"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/gvdb-builder.h",
+      "bytes": 3882,
+      "sha256": "39172f8d999ede0183e75c9e2f4d51897c144876318a5726738987bd566be817"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/gvdb-format.h",
+      "bytes": 2169,
+      "sha256": "fa9fee33ac4d368e3485047a207ec33dfca76605376826423ad43ff75ce52b97"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/gvdb-reader.c",
+      "bytes": 20630,
+      "sha256": "e13a00e8ec0f92c085d9f381323513c445877e03e76fbb95928b3fd1d442721c"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/gvdb-reader.h",
+      "bytes": 3900,
+      "sha256": "3ffa65a3cf491b9783548d4279e8f88db98b059c7e111682b537b7eb17230ec1"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/tests/gvdb.c",
+      "bytes": 4545,
+      "sha256": "7ee21f706af4356bba2a281e7eeae5c0f0525bf263d9115baa3291ef8f0cf07b"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb/tests/meson.build",
+      "bytes": 240,
+      "sha256": "9158d076d367f97a79bf7d62bad1e4605ca4c2528ed18faba4fcd955393b4378"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/gvdb.doap",
+      "bytes": 1708,
+      "sha256": "8cde92f180b814ef3df92a7799d279b32e34fa70a12657edab42072857bbf3d9"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/meson.build",
+      "bytes": 464,
+      "sha256": "38a33f574b74af09896311c1668653ae80f87e905fe364f03f65e6d535c77a46"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb/meson.options",
+      "bytes": 180,
+      "sha256": "543e1c36daa897ef0bcae85db779e2fcd7d6a2dbe727993cd5388dace6f3793b"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gi-docgen.wrap",
+      "bytes": 211,
+      "sha256": "e1baa25ea3e44e2a854e870592368b45e9fac205cae4c3c60e193709c0857a8f"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gtk-doc.wrap",
+      "bytes": 100,
+      "sha256": "272b13dcf9e4ba1b9aa1727ebeb59e043716c0f555ca6957a6211b163b94cee6"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/gvdb.wrap",
+      "bytes": 163,
+      "sha256": "d669f93cb531a04d719dcc5b790838452c918eea0a6134ae2bf17b470eb7838c"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/libffi.wrap",
+      "bytes": 609,
+      "sha256": "1d56093bbe4d8158295c1be7b0fd62a9818b5e7d771ab55e3e0c057b10e9e99b"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/pcre2.wrap",
+      "bytes": 796,
+      "sha256": "a790b22a6f8e2c21404fec9795209d6d0fb760fe40981adc332d3222dfe4553f"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/proxy-libintl.wrap",
+      "bytes": 417,
+      "sha256": "ca5a4e2734f8f82ed211d9c3e62560ebe68670533902f42aad961313029b0c46"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/sysprof.wrap",
+      "bytes": 134,
+      "sha256": "84414f4b755314900c9f68b0471a30aaf201599a500b38fd687d1f02b4d439ae"
+    },
+    {
+      "file": "third_party/native/provenance/glib/subprojects/zlib.wrap",
+      "bytes": 551,
+      "sha256": "6aa5c2e03aedf723af8574cb5f85bdbe14380cff9d5646f14e08dda7d343b026"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/plugins/llvm-mingw/cargo-c.mk",
+      "bytes": 1421,
+      "sha256": "a87f7e78ca9833386436d473504ceeb34ef7a2665795dc5fb2b4de70f88410aa"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/plugins/llvm-mingw/llvm-mingw.mk",
+      "bytes": 4828,
+      "sha256": "18e920c702962f67cf4cda46dbafc9c0af87bc599cb5522dcabc558bc9743d44"
+    },
+    {
+      "file": "third_party/native/recipes/mxe/plugins/llvm-mingw/rust.mk",
+      "bytes": 3481,
+      "sha256": "d9bae1b7afdf6d3c2cd3f5eff420a1bb439587ac35b5f509f43f33ef0489b418"
+    }
+  ],
+  "components": [
+    {
+      "component": "aom",
+      "upstream_name": "aom",
+      "version": "3.15.1",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/aom.mk"
+        }
+      ],
+      "filename": "libaom-3.15.1.tar.gz",
+      "source_urls": [
+        "https://storage.googleapis.com/aom-releases/libaom-3.15.1.tar.gz"
+      ],
+      "expected_sha256": "8ca0c52746174603500f0adb6f2a215d69c9ca2aab2acb3caa06fb791d8d01bf",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://storage.googleapis.com/aom-releases/libaom-3.15.1.tar.gz",
+      "bytes": 6623477,
+      "sha256": "8ca0c52746174603500f0adb6f2a215d69c9ca2aab2acb3caa06fb791d8d01bf",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/aom/LICENSE",
+          "bytes": 1316,
+          "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/PATENTS",
+          "bytes": 5701,
+          "sha256": "661fb8e504744e95587b556b94a58343448300606a41bea8c7a9b97125696e61"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/fastfeat/LICENSE",
+          "bytes": 1504,
+          "sha256": "499041ddee5227b6f29ca06c17803e5fe24d60f243c69635cd76b7ba08d0ddd5"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/googletest/src/LICENSE",
+          "bytes": 1475,
+          "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/highway/LICENSE-BSD3",
+          "bytes": 1515,
+          "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/libwebm/LICENSE.TXT",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/libwebm/PATENTS.TXT",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/libyuv/LICENSE",
+          "bytes": 1506,
+          "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/vector/LICENSE",
+          "bytes": 1084,
+          "sha256": "ff6c857ce2708e87701323078aef115c1872a1f80a9649f86dc899b48083bc60"
+        },
+        {
+          "file": "third_party/native/component-notices/aom/third_party/x86inc/LICENSE",
+          "bytes": 936,
+          "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+        }
+      ]
+    },
+    {
+      "component": "archive",
+      "upstream_name": "libarchive",
+      "version": "3.8.9",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libarchive.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "libarchive-3.8.9.tar.xz",
+      "source_urls": [
+        "https://www.libarchive.org/downloads/libarchive-3.8.9.tar.xz"
+      ],
+      "expected_sha256": "888c934f9d95648ecb9163dc8e23ab80a476ecb81a8f1154704a227b5b676dde",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://www.libarchive.org/downloads/libarchive-3.8.9.tar.xz",
+      "bytes": 6617696,
+      "sha256": "888c934f9d95648ecb9163dc8e23ab80a476ecb81a8f1154704a227b5b676dde",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/archive/COPYING",
+          "bytes": 3089,
+          "sha256": "30e556b3959e3985d66efefec5eaac51d4995053caa1d3cffe6eb916f146f229"
+        }
+      ]
+    },
+    {
+      "component": "cairo",
+      "upstream_name": "cairo",
+      "version": "1.18.6",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/cairo.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "cairo-1.18.6.tar.xz",
+      "source_urls": [
+        "https://cairographics.org/releases/cairo-1.18.6.tar.xz"
+      ],
+      "expected_sha256": "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://cairographics.org/releases/cairo-1.18.6.tar.xz",
+      "bytes": 32725456,
+      "sha256": "1c767308174337a74694da0f3ec069c271452163a1ef4540964c50c301f157d4",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/cairo/COPYING",
+          "bytes": 1576,
+          "sha256": "67228a9f7c5f9b67c58f556f1be178f62da4d9e2e6285318d8c74d567255abdf"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/COPYING-LGPL-2.1",
+          "bytes": 26533,
+          "sha256": "9e9e8608c4cdda51a78cc3a385f4ec9a2e4c96d5ecad74ac8bca5fca3e563b7d"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/COPYING-MPL-1.1",
+          "bytes": 25755,
+          "sha256": "53692a2ed6c6a2c6ec9b32dd0b820dfae91e0a1fcdf625ca9ed0bdf8705fcc4f"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/perf/COPYING",
+          "bytes": 229,
+          "sha256": "6f93b45ea874706058ae35bc02df79c3f9daf00948672eea8394cc25d1327d49"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/test/COPYING",
+          "bytes": 1026,
+          "sha256": "a37812e0e27a211272d4c27fa45028c3653e78bb708acccb77c94128dc72b98e"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/util/COPYING",
+          "bytes": 138,
+          "sha256": "008e976b6e5e7155ee24322073f42cab7cd6daf90bc2322f1d5c3aacab94111c"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/util/cairo-script/COPYING",
+          "bytes": 656,
+          "sha256": "25f4d4ce651b1ee6aff713ff986275d6c190a8537e36437886f8bf1497b0a174"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/util/cairo-trace/COPYING",
+          "bytes": 179,
+          "sha256": "421158645572270264a980b8b130dd988138e4dae20144e22455446e0ef90902"
+        },
+        {
+          "file": "third_party/native/component-notices/cairo/util/cairo-trace/COPYING-GPL-3",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+        }
+      ]
+    },
+    {
+      "component": "cgif",
+      "upstream_name": "cgif",
+      "version": "0.5.4",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/cgif.mk"
+        }
+      ],
+      "filename": "cgif-0.5.4.tar.gz",
+      "source_urls": [
+        "https://github.com/dloebl/cgif/archive/v0.5.4.tar.gz"
+      ],
+      "expected_sha256": "83a70a15bc2da41f081a44ebc58ee48e2e1d524a6d3fdb4a24064afa08d5ad4d",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/dloebl/cgif/archive/v0.5.4.tar.gz",
+      "bytes": 40028,
+      "sha256": "83a70a15bc2da41f081a44ebc58ee48e2e1d524a6d3fdb4a24064afa08d5ad4d",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/cgif/LICENSE",
+          "bytes": 1099,
+          "sha256": "7264dede477abab4ac3fe8236beb8153845c04ccd33b18f281085087e219fc6d"
+        }
+      ]
+    },
+    {
+      "component": "exif",
+      "upstream_name": "libexif",
+      "version": "0.6.26",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libexif.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "libexif-0.6.26.tar.xz",
+      "source_urls": [
+        "https://github.com/libexif/libexif/releases/download/v0.6.26/libexif-0.6.26.tar.xz"
+      ],
+      "expected_sha256": "4a055ed6575e61ca46c3172be3c753cc16c9becd0f99ec71d58dd0e471476c0c",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/libexif/libexif/releases/download/v0.6.26/libexif-0.6.26.tar.xz",
+      "bytes": 1335488,
+      "sha256": "4a055ed6575e61ca46c3172be3c753cc16c9becd0f99ec71d58dd0e471476c0c",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/exif/COPYING",
+          "bytes": 26434,
+          "sha256": "36b6d3fa47916943fd5fec313c584784946047ec1337a78b440e5992cb595f89"
+        }
+      ]
+    },
+    {
+      "component": "expat",
+      "upstream_name": "expat",
+      "version": "2.8.5",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/expat.mk"
+        }
+      ],
+      "filename": "expat-2.8.5.tar.bz2",
+      "source_urls": [
+        "https://downloads.sourceforge.net/project/expat/expat/2.8.5/expat-2.8.5.tar.bz2"
+      ],
+      "expected_sha256": "952c03c33a6b337f12dae7a9b0f9dee86f867550d35c994d6bdaaddd37dc8454",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://downloads.sourceforge.net/project/expat/expat/2.8.5/expat-2.8.5.tar.bz2",
+      "bytes": 678656,
+      "sha256": "952c03c33a6b337f12dae7a9b0f9dee86f867550d35c994d6bdaaddd37dc8454",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/expat/COPYING",
+          "bytes": 1144,
+          "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+        }
+      ]
+    },
+    {
+      "component": "ffi",
+      "upstream_name": "libffi",
+      "version": "3.8.0",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libffi.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "libffi-3.8.0.tar.gz",
+      "source_urls": [
+        "https://github.com/libffi/libffi/releases/download/v3.8.0/libffi-3.8.0.tar.gz"
+      ],
+      "expected_sha256": "7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/libffi/libffi/releases/download/v3.8.0/libffi-3.8.0.tar.gz",
+      "bytes": 1581626,
+      "sha256": "7da3e2d9a171eb0a038f592ecad3ff2bb2550f3496d87b3b29ad0cf4430c0db4",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/ffi/LICENSE-BUILDTOOLS",
+          "bytes": 18698,
+          "sha256": "e67978cd18816c0cb7d29aaaacde7b7447402c2fb321a051698890a8eaedda94"
+        },
+        {
+          "file": "third_party/native/component-notices/ffi/LICENSE",
+          "bytes": 1132,
+          "sha256": "17b64dc60f3b6897a60f971e288b973f655c2edcdf08b25f3c3dd5549857881c"
+        }
+      ]
+    },
+    {
+      "component": "fontconfig",
+      "upstream_name": "fontconfig",
+      "version": "2.18.3",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/fontconfig.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "fontconfig-2.18.3.tar.bz2",
+      "source_urls": [
+        "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.3/fontconfig-2.18.3.tar.bz2"
+      ],
+      "expected_sha256": "8d28f79d2017cbe1fbb7da84b2502c86421b4f45860234d2f4ab5b35564c8d01",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.3/fontconfig-2.18.3.tar.bz2",
+      "bytes": 544066,
+      "sha256": "8d28f79d2017cbe1fbb7da84b2502c86421b4f45860234d2f4ab5b35564c8d01",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/fontconfig/COPYING",
+          "bytes": 8616,
+          "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067"
+        }
+      ]
+    },
+    {
+      "component": "freetype",
+      "upstream_name": "freetype",
+      "version": "2.14.3",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/freetype.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "freetype-2.14.3.tar.xz",
+      "source_urls": [
+        "https://downloads.sourceforge.net/project/freetype/freetype2/2.14.3/freetype-2.14.3.tar.xz"
+      ],
+      "expected_sha256": "36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://downloads.sourceforge.net/project/freetype/freetype2/2.14.3/freetype-2.14.3.tar.xz",
+      "bytes": 2670220,
+      "sha256": "36bc4f1cc413335368ee656c42afca65c5a3987e8768cc28cf11ba775e785a5f",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/freetype/docs/GPLv2.TXT",
+          "bytes": 17994,
+          "sha256": "c4120c6752c910c299e3bd9cb3a46ff262c268303ca2069b61f92f10a5656c18"
+        },
+        {
+          "file": "third_party/native/component-notices/freetype/docs/FTL.TXT",
+          "bytes": 6743,
+          "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+        },
+        {
+          "file": "third_party/native/component-notices/freetype/LICENSE.TXT",
+          "bytes": 2149,
+          "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+        }
+      ]
+    },
+    {
+      "component": "fribidi",
+      "upstream_name": "fribidi",
+      "version": "1.0.17",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/fribidi.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "fribidi-1.0.17.tar.xz",
+      "source_urls": [
+        "https://github.com/fribidi/fribidi/releases/download/v1.0.17/fribidi-1.0.17.tar.xz"
+      ],
+      "expected_sha256": "6949dcde27d41cebad1fd741fcafc36d55a1020d2d872d4a6eb3914caabbada2",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/fribidi/fribidi/releases/download/v1.0.17/fribidi-1.0.17.tar.xz",
+      "bytes": 1203284,
+      "sha256": "6949dcde27d41cebad1fd741fcafc36d55a1020d2d872d4a6eb3914caabbada2",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/fribidi/COPYING",
+          "bytes": 26419,
+          "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+        }
+      ]
+    },
+    {
+      "component": "glib",
+      "upstream_name": "glib",
+      "version": "2.90.0",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/glib.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/proxy-libintl/overrides.mk"
+        }
+      ],
+      "filename": "glib-2.90.0.tar.xz",
+      "source_urls": [
+        "https://download.gnome.org/sources/glib/2.90/glib-2.90.0.tar.xz"
+      ],
+      "expected_sha256": "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://download.gnome.org/sources/glib/2.90/glib-2.90.0.tar.xz",
+      "bytes": 5830480,
+      "sha256": "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/glib/docs/reference/COPYING",
+          "bytes": 1698,
+          "sha256": "b1ec1d0e5947f81e815d8771f7d4d90671a94bb10a42dc687fb566de461a57aa"
+        },
+        {
+          "file": "third_party/native/component-notices/glib/subprojects/gvdb/COPYING",
+          "bytes": 26445,
+          "sha256": "bdbcdaa7858872393e9d6b216bbdc8a23e99d98dd6cdb7cda19458025b9e19fc"
+        }
+      ]
+    },
+    {
+      "component": "harfbuzz",
+      "upstream_name": "harfbuzz",
+      "version": "14.5.0",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/harfbuzz.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "harfbuzz-14.5.0.tar.xz",
+      "source_urls": [
+        "https://github.com/harfbuzz/harfbuzz/releases/download/14.5.0/harfbuzz-14.5.0.tar.xz"
+      ],
+      "expected_sha256": "b7132e148358a45185c9feafd049dbaf243649d3c44414b3534d9c95d18592b9",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/harfbuzz/harfbuzz/releases/download/14.5.0/harfbuzz-14.5.0.tar.xz",
+      "bytes": 20262956,
+      "sha256": "b7132e148358a45185c9feafd049dbaf243649d3c44414b3534d9c95d18592b9",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/harfbuzz/COPYING",
+          "bytes": 1971,
+          "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+        },
+        {
+          "file": "third_party/native/component-notices/harfbuzz/perf/texts/COPYING",
+          "bytes": 1289,
+          "sha256": "cf977e70247d5fa9d44955e4d8ed23b503c31f78570f62136756278c2cfcb3c3"
+        },
+        {
+          "file": "third_party/native/component-notices/harfbuzz/src/ms-use/COPYING",
+          "bytes": 1141,
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+        },
+        {
+          "file": "third_party/native/component-notices/harfbuzz/test/COPYING",
+          "bytes": 4370,
+          "sha256": "9b35b8485f69cd298fccbb3c40a827dc06cf1185553bef827903497d2944a8d7"
+        },
+        {
+          "file": "third_party/native/component-notices/harfbuzz/test/shape/data/aots/COPYING",
+          "bytes": 593,
+          "sha256": "f55f74bf740db07bb032a90aa74af4307adea3d489c1ccba12453cf0c0a764cb"
+        },
+        {
+          "file": "third_party/native/component-notices/harfbuzz/test/shape/data/text-rendering-tests/COPYING",
+          "bytes": 584,
+          "sha256": "d24039e4d22c9bc72096f6174374539d92a3d6e1163938546ec59179fe095e6f"
+        }
+      ]
+    },
+    {
+      "component": "heif",
+      "upstream_name": "libheif",
+      "version": "1.23.5",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/libheif.mk"
+        }
+      ],
+      "filename": "libheif-1.23.5.tar.gz",
+      "source_urls": [
+        "https://github.com/strukturag/libheif/releases/download/v1.23.5/libheif-1.23.5.tar.gz"
+      ],
+      "expected_sha256": "fd9036064c4432f0550d15072ddf34956a248279ee9aeaff0fba3fa0f77d8f1a",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/strukturag/libheif/releases/download/v1.23.5/libheif-1.23.5.tar.gz",
+      "bytes": 2276803,
+      "sha256": "fd9036064c4432f0550d15072ddf34956a248279ee9aeaff0fba3fa0f77d8f1a",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/heif/COPYING",
+          "bytes": 44366,
+          "sha256": "fa81ce652315b013359d6e8e4744335f31a50c7c192907176d3632f78a3b4596"
+        },
+        {
+          "file": "third_party/native/component-notices/heif/examples/COPYING",
+          "bytes": 1066,
+          "sha256": "278ee9bbb13ecb080a131c68927bd589a6a56fd5449ce25e8e594c858864830d"
+        }
+      ]
+    },
+    {
+      "component": "highway",
+      "upstream_name": "highway",
+      "version": "1.4.0",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/highway.mk"
+        }
+      ],
+      "filename": "highway-1.4.0.tar.gz",
+      "source_urls": [
+        "https://github.com/google/highway/releases/download/1.4.0/highway-1.4.0.tar.gz"
+      ],
+      "expected_sha256": "36f672ab48ddb3c8555e9e89e16fe400cd7d16c6eb455a1a3d0c146a63ababdc",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/google/highway/releases/download/1.4.0/highway-1.4.0.tar.gz",
+      "bytes": 3691557,
+      "sha256": "36f672ab48ddb3c8555e9e89e16fe400cd7d16c6eb455a1a3d0c146a63ababdc",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/highway/LICENSE",
+          "bytes": 20785,
+          "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
+        },
+        {
+          "file": "third_party/native/component-notices/highway/debian/copyright",
+          "bytes": 825,
+          "sha256": "6e4ecf1cae052b678ea3178dd4b3652d581ee66a82d58db8800dd7d80dd6de76"
+        }
+      ]
+    },
+    {
+      "component": "imagequant",
+      "upstream_name": "libimagequant",
+      "version": "2.4.1",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/libimagequant.mk"
+        }
+      ],
+      "filename": "libimagequant-2.4.1.tar.gz",
+      "source_urls": [
+        "https://github.com/lovell/libimagequant/archive/v2.4.1.tar.gz"
+      ],
+      "expected_sha256": "47d2a84b7b1052975c9d50a3d4e3cacbf57b43d84a4c3131210848ead9964dfb",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/lovell/libimagequant/archive/v2.4.1.tar.gz",
+      "bytes": 45792,
+      "sha256": "47d2a84b7b1052975c9d50a3d4e3cacbf57b43d84a4c3131210848ead9964dfb",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/imagequant/COPYRIGHT",
+          "bytes": 1851,
+          "sha256": "7391bfbcde4404cefb9849553362c3ab436f929f5cc1abb57071ec045590ee99"
+        }
+      ]
+    },
+    {
+      "component": "lcms",
+      "upstream_name": "lcms",
+      "version": "2.19.1",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/lcms.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "lcms2-2.19.1.tar.gz",
+      "source_urls": [
+        "https://downloads.sourceforge.net/project/lcms/lcms/2.19.1/lcms2-2.19.1.tar.gz"
+      ],
+      "expected_sha256": "bfc54f7bab59fbc921012014a8032e4cba4abd46db47d46b76416a8c0b2815c8",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://downloads.sourceforge.net/project/lcms/lcms/2.19.1/lcms2-2.19.1.tar.gz",
+      "bytes": 5728743,
+      "sha256": "bfc54f7bab59fbc921012014a8032e4cba4abd46db47d46b76416a8c0b2815c8",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/lcms/LICENSE",
+          "bytes": 1080,
+          "sha256": "6dbd60437f8ef91d8de1f08ad75882547fd4931bfcc3566a0735f28db1484d31"
+        },
+        {
+          "file": "third_party/native/component-notices/lcms/plugins/fast_float/COPYING.GPL3",
+          "bytes": 35146,
+          "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+        },
+        {
+          "file": "third_party/native/component-notices/lcms/plugins/threaded/COPYING.GPL3",
+          "bytes": 35146,
+          "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+        },
+        {
+          "file": "third_party/native/component-notices/lcms/utils/jpgicc/LICENSE_iccjpeg",
+          "bytes": 3234,
+          "sha256": "8baac37d14eed89b82ffcb041677dd701164eb5cc0f26e165fe47eb11afa0dca"
+        }
+      ]
+    },
+    {
+      "component": "mozjpeg",
+      "upstream_name": "mozjpeg",
+      "version": "0826579",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/mozjpeg/mozjpeg.mk"
+        }
+      ],
+      "filename": "mozjpeg-0826579.tar.gz",
+      "source_urls": [
+        "https://github.com/mozilla/mozjpeg/tarball/08265790774cd0714832c9e675522acbe5581437"
+      ],
+      "expected_sha256": "375d19302f09dfa267651dcfd3ddb62862ab3a488862b6168ce755bb1a925860",
+      "source_commit": "08265790774cd0714832c9e675522acbe5581437",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/mozilla/mozjpeg/tarball/08265790774cd0714832c9e675522acbe5581437",
+      "bytes": 2442626,
+      "sha256": "375d19302f09dfa267651dcfd3ddb62862ab3a488862b6168ce755bb1a925860",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/mozjpeg/LICENSE.md",
+          "bytes": 5620,
+          "sha256": "96f5b328adbb78eeaaec6980d73fd558cb1e4d62560ed615646bc3cf5e532430"
+        },
+        {
+          "file": "third_party/native/component-notices/mozjpeg/README.ijg",
+          "bytes": 12715,
+          "sha256": "f4a85f8677ca4e41b185c0a9f7c31a30ddb9ce43c561483ee92ef12db37c2a10"
+        },
+        {
+          "file": "third_party/native/component-notices/mozjpeg/java/doc/legal/LICENSE",
+          "bytes": 19274,
+          "sha256": "4b9abebc4338048a7c2dc184e9f800deb349366bdf28eb23c2677a77b4c87726"
+        },
+        {
+          "file": "third_party/native/component-notices/mozjpeg/release/License.rtf",
+          "bytes": 2172,
+          "sha256": "933e1427ec78050c76396182fd9819a23fef58c17e997b67581852167be971db"
+        }
+      ]
+    },
+    {
+      "component": "pango",
+      "upstream_name": "pango",
+      "version": "1.58.2",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/pango.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "pango-1.58.2.tar.xz",
+      "source_urls": [
+        "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz"
+      ],
+      "expected_sha256": "342385b6ca3b7c73455d7c80a13b7dbe4489e00bc3bd4c5bd6ed4dce421e374a",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz",
+      "bytes": 1918112,
+      "sha256": "342385b6ca3b7c73455d7c80a13b7dbe4489e00bc3bd4c5bd6ed4dce421e374a",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/pango/COPYING",
+          "bytes": 25292,
+          "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5"
+        }
+      ]
+    },
+    {
+      "component": "pixman",
+      "upstream_name": "pixman",
+      "version": "0.46.4",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/pixman.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "pixman-0.46.4.tar.gz",
+      "source_urls": [
+        "https://xorg.freedesktop.org/archive/individual/lib/pixman-0.46.4.tar.gz",
+        "https://cairographics.org/releases/pixman-0.46.4.tar.gz"
+      ],
+      "expected_sha256": "d09c44ebc3bd5bee7021c79f922fe8fb2fb57f7320f55e97ff9914d2346a591c",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://xorg.freedesktop.org/archive/individual/lib/pixman-0.46.4.tar.gz",
+      "bytes": 827198,
+      "sha256": "d09c44ebc3bd5bee7021c79f922fe8fb2fb57f7320f55e97ff9914d2346a591c",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/pixman/COPYING",
+          "bytes": 2087,
+          "sha256": "fac9270f0987b96ff4533fca3548c633e02083cbba4a0172a3b149b2e4019793"
+        }
+      ]
+    },
+    {
+      "component": "png",
+      "upstream_name": "libpng",
+      "version": "1.6.58",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libpng.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "libpng-1.6.58.tar.xz",
+      "source_urls": [
+        "https://ftp-osl.osuosl.org/pub/libpng/src/libpng16/libpng-1.6.58.tar.xz",
+        "https://downloads.sourceforge.net/project/libpng/libpng16/1.6.58/libpng-1.6.58.tar.xz"
+      ],
+      "expected_sha256": "28eb403f51f0f7405249132cecfe82ea5c0ef97f1b32c5a65828814ae0d34775",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://ftp-osl.osuosl.org/pub/libpng/src/libpng16/libpng-1.6.58.tar.xz",
+      "bytes": 1070096,
+      "sha256": "28eb403f51f0f7405249132cecfe82ea5c0ef97f1b32c5a65828814ae0d34775",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/png/LICENSE",
+          "bytes": 5345,
+          "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+        },
+        {
+          "file": "third_party/native/component-notices/png/ci/LICENSE_MIT.txt",
+          "bytes": 1036,
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        },
+        {
+          "file": "third_party/native/component-notices/png/contrib/gregbook/COPYING",
+          "bytes": 18097,
+          "sha256": "d6cb0e9e560f51085556949a84af12b79a00f10ab8b66c752537faf7cd665572"
+        },
+        {
+          "file": "third_party/native/component-notices/png/contrib/gregbook/LICENSE",
+          "bytes": 2373,
+          "sha256": "b6a03c1803eb58ffb1f1278d5c7d4096c4c116e66dce8a7553e8c77d163c3438"
+        },
+        {
+          "file": "third_party/native/component-notices/png/contrib/pngexif/LICENSE_MIT.txt",
+          "bytes": 1036,
+          "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+        },
+        {
+          "file": "third_party/native/component-notices/png/contrib/pngminus/LICENSE.txt",
+          "bytes": 1164,
+          "sha256": "1806f1f10d393e9e377b3a8d1b968452b54f1a90378f14eeef45426946ace330"
+        }
+      ]
+    },
+    {
+      "component": "proxy-libintl",
+      "upstream_name": "proxy-libintl",
+      "version": "0.5",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/proxy-libintl/proxy-libintl.mk"
+        }
+      ],
+      "filename": "proxy-libintl-0.5.tar.gz",
+      "source_urls": [
+        "https://github.com/frida/proxy-libintl/archive/0.5.tar.gz"
+      ],
+      "expected_sha256": "f7a1cbd7579baaf575c66f9d99fb6295e9b0684a28b095967cfda17857595303",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/frida/proxy-libintl/archive/0.5.tar.gz",
+      "bytes": 13056,
+      "sha256": "f7a1cbd7579baaf575c66f9d99fb6295e9b0684a28b095967cfda17857595303",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/proxy-libintl/COPYING",
+          "bytes": 25292,
+          "sha256": "d245807f90032872d1438d741ed21e2490e1175dc8aa3afa5ddb6c8e529b58e5"
+        }
+      ]
+    },
+    {
+      "component": "rsvg",
+      "upstream_name": "librsvg",
+      "version": "2.63.2",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/librsvg.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "librsvg-2.63.2.tar.xz",
+      "source_urls": [
+        "https://download.gnome.org/sources/librsvg/2.63/librsvg-2.63.2.tar.xz"
+      ],
+      "expected_sha256": "852b18e1a00b8605528825a27dc7748bff2a5dd254028f59dc22a34ea57e81b6",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://download.gnome.org/sources/librsvg/2.63/librsvg-2.63.2.tar.xz",
+      "bytes": 6768408,
+      "sha256": "852b18e1a00b8605528825a27dc7748bff2a5dd254028f59dc22a34ea57e81b6",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/rsvg/COPYING.LIB",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "file": "third_party/native/component-notices/rsvg/librsvg-rebind/LICENSE",
+          "bytes": 1023,
+          "sha256": "f9c4c77baa3828004ee54b8a4f2db2e88ed44a6237a493965bf551fac0fcb62d"
+        }
+      ]
+    },
+    {
+      "component": "tiff",
+      "upstream_name": "tiff",
+      "version": "4.7.2",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/tiff.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/mozjpeg/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/overrides.mk"
+        }
+      ],
+      "filename": "tiff-4.7.2.tar.xz",
+      "source_urls": [
+        "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.xz"
+      ],
+      "expected_sha256": "4996f0c4f93094719b1ca5c6279b20e588773ba8a247533e486416fb662ddb88",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.xz",
+      "bytes": 2409652,
+      "sha256": "4996f0c4f93094719b1ca5c6279b20e588773ba8a247533e486416fb662ddb88",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/tiff/doc/html-prebuilt/_sources/project/license.rst.txt",
+          "bytes": 1181,
+          "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+        },
+        {
+          "file": "third_party/native/component-notices/tiff/doc/html-prebuilt/project/license.html",
+          "bytes": 5663,
+          "sha256": "6c9436f8e9f58a79e044949e360291b9c910715fad31cdaed66bc61b0dcf33e6"
+        },
+        {
+          "file": "third_party/native/component-notices/tiff/doc/project/license.rst",
+          "bytes": 1181,
+          "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+        },
+        {
+          "file": "third_party/native/component-notices/tiff/LICENSE.md",
+          "bytes": 2416,
+          "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade"
+        }
+      ]
+    },
+    {
+      "component": "uhdr",
+      "upstream_name": "uhdr",
+      "version": "2.0.2",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/uhdr.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/mozjpeg/overrides.mk"
+        }
+      ],
+      "filename": "uhdr-2.0.2.tar.gz",
+      "source_urls": [
+        "https://github.com/google/libultrahdr/archive/v2.0.2.tar.gz"
+      ],
+      "expected_sha256": "aa8d193bb887c348c419780511dd03b374f4e07af8812b6d3f80c8537cf1ef2c",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/google/libultrahdr/archive/v2.0.2.tar.gz",
+      "bytes": 1518872,
+      "sha256": "aa8d193bb887c348c419780511dd03b374f4e07af8812b6d3f80c8537cf1ef2c",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/uhdr/LICENSE",
+          "bytes": 12566,
+          "sha256": "c9247b5cb07866938643cc238292434e6f2af8642e1fce10771c0e4cc7909316"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/LICENSE-APACHE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/LICENSE-MIT",
+          "bytes": 1088,
+          "sha256": "029624bf1488ed7b8c92727d267c95f588c9c12fa6932c207884c2641a7e9d37"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/adobe-hdr-gain-map-license/NOTICE",
+          "bytes": 66,
+          "sha256": "746d8c9c414b335bb7c9615918a15a6489a4dcc1c5c3aac2bda410d1072c332a"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/tests/data/LICENSE",
+          "bytes": 19354,
+          "sha256": "c4b2cd68902b8c4a82c9b5ddebe15538acbce7f70a88fcc751e1e921bde89f7f"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/third_party/image_io/LICENSE",
+          "bytes": 11358,
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "file": "third_party/native/component-notices/uhdr/third_party/image_io/src/modp_b64/LICENSE",
+          "bytes": 1721,
+          "sha256": "d47e8390fb0d7ad4a18f26aedd6283c7ab6b5b4fabab536ccb4db7f9f6d90c08"
+        }
+      ]
+    },
+    {
+      "component": "vips",
+      "upstream_name": "vips",
+      "version": "8.18.7",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/vips.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/web-deps/overrides.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/mozjpeg/overrides.mk"
+        }
+      ],
+      "filename": "vips-8.18.7.tar.xz",
+      "source_urls": [
+        "https://github.com/libvips/libvips/releases/download/v8.18.7/vips-8.18.7.tar.xz"
+      ],
+      "expected_sha256": "5baaead3b0bb20ffdb9e9ff09aa9fda08620923df77b63b436654cb5e0b3bf94",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/libvips/libvips/releases/download/v8.18.7/vips-8.18.7.tar.xz",
+      "bytes": 25425084,
+      "sha256": "5baaead3b0bb20ffdb9e9ff09aa9fda08620923df77b63b436654cb5e0b3bf94",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/vips/LICENSE",
+          "bytes": 26530,
+          "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+        },
+        {
+          "file": "third_party/native/component-notices/vips/libvips/foreign/libnsgif/COPYING",
+          "bytes": 1133,
+          "sha256": "1469b759cf18e43c6e1b4ff892307d3962cbbb337ac497620d6690a219fad10c"
+        }
+      ]
+    },
+    {
+      "component": "webp",
+      "upstream_name": "libwebp",
+      "version": "1.6.0",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libwebp.mk"
+        }
+      ],
+      "filename": "libwebp-1.6.0.tar.gz",
+      "source_urls": [
+        "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz"
+      ],
+      "expected_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+      "bytes": 4296070,
+      "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/webp/PATENTS",
+          "bytes": 1436,
+          "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+        },
+        {
+          "file": "third_party/native/component-notices/webp/COPYING",
+          "bytes": 1496,
+          "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+        }
+      ]
+    },
+    {
+      "component": "xml2",
+      "upstream_name": "libxml2",
+      "version": "2.15.4",
+      "recipe_sources": [
+        {
+          "repository": "mxe",
+          "path": "src/libxml2.mk"
+        },
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/overrides.mk"
+        }
+      ],
+      "filename": "libxml2-2.15.4.tar.xz",
+      "source_urls": [
+        "https://ftp.osuosl.org/pub/blfs/conglomeration/libxml2/libxml2-2.15.4.tar.xz",
+        "https://download.gnome.org/sources/libxml2/2.14/libxml2-2.15.4.tar.xz"
+      ],
+      "expected_sha256": "98087fd181d9070724f3fbc65c7377db03038eb92bd882374daff44940138821",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://ftp.osuosl.org/pub/blfs/conglomeration/libxml2/libxml2-2.15.4.tar.xz",
+      "bytes": 3177444,
+      "sha256": "98087fd181d9070724f3fbc65c7377db03038eb92bd882374daff44940138821",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/xml2/Copyright",
+          "bytes": 1314,
+          "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626"
+        },
+        {
+          "file": "third_party/native/component-notices/xml2/test/html-tokenizer/NOTICE",
+          "bytes": 1270,
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        },
+        {
+          "file": "third_party/native/component-notices/xml2/result/html-tokenizer/NOTICE",
+          "bytes": 1270,
+          "sha256": "d6a2cb265a0a249a234b89eeffa7f316ebe5bff546672a0a2b1a861dd2238460"
+        }
+      ]
+    },
+    {
+      "component": "zlib-ng",
+      "upstream_name": "zlib-ng",
+      "version": "2.3.3",
+      "recipe_sources": [
+        {
+          "repository": "build-win64-mxe",
+          "path": "build/plugins/zlib-ng/zlib-ng.mk"
+        }
+      ],
+      "filename": "zlib-ng-2.3.3.tar.gz",
+      "source_urls": [
+        "https://github.com/zlib-ng/zlib-ng/archive/2.3.3.tar.gz"
+      ],
+      "expected_sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+      "status": "SOURCE_ARCHIVE_SHA256_MATCH",
+      "fetched_from": "https://github.com/zlib-ng/zlib-ng/archive/2.3.3.tar.gz",
+      "bytes": 2447397,
+      "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+      "retained_license_notice_files": [
+        {
+          "file": "third_party/native/component-notices/zlib-ng/LICENSE.md",
+          "bytes": 867,
+          "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee"
+        }
+      ]
+    }
+  ],
+  "source_archives_checksum_matched": 28,
+  "glib_transitive_inputs": {
+    "status": "GVDB_SOURCE_ALREADY_INCLUDED_IN_HASH_MATCHED_GLIB_ARCHIVE",
+    "source_sha256": "17d15cac2af80a33271127408e0abc2748eb297c595c2a26409e81e14e7d1b8f",
+    "gvdb_retained_source_and_license_count": 14,
+    "retained_wraps": 8,
+    "gvdb_wrap_revision": "2b42fc75f09dbe1cd1057580b5782b08f2dcb400",
+    "pcre2_required_by_reviewed_windows_recipe": false,
+    "evidence": [
+      "recipes/build-win64-mxe/build/overrides.mk:151,201,709-723",
+      "recipes/build-win64-mxe/build/patches/glib-2-without-gregex.patch"
+    ],
+    "scope": "GLib release archive includes GVDB; the reviewed Windows patch removes PCRE2/GRegex. Wrap presence alone is not evidence of missing/required source."
+  },
+  "librsvg_locked_registry_sources": {
+    "report": "third_party/native/provenance/librsvg-crates.json",
+    "status": "ALL_LOCKED_CRATE_ARCHIVES_MATCH",
+    "locked_external_count": 357,
+    "source_archives_checksum_matched": 357,
+    "source_archive_total_bytes": 38675419,
+    "scope": "Librsvg 2.63.2 complete Cargo.lock registry sources including dev/other-target entries; not all are proven linked into Windows DLL"
+  },
+  "sharp_sigstore_certificate_and_transparency_log_verification": "NOT_RUN",
+  "native_source_archives_excluded_from_mcpb": true,
+  "remaining_review": [
+    "The original target feature/dependency selection, complete toolchain sources, exact release-container/runner image and MSVC version are not proven by collecting release sources and all Cargo.lock entries. See supplementary reports for precisely verified source counts.",
+    "Sharp npm archive SRI/registry ECDSA and the five C++ source inputs are separately verified when its provenance report is present; full Sigstore certificate/transparency verification remains NOT_RUN.",
+    "No Windows native rebuild or replacement/relink test was performed.",
+    "Before binary public distribution, provide the required corresponding-source materials through an actual maintained release/download route; cached private files and upstream links alone are not asserted sufficient.",
+    "Reconcile component notices and license choices, and verify the final candidate includes the native notices. Build-recipe redistribution licensing needs review where an upstream file lacks explicit terms."
+  ]
+}

@@ -1,0 +1,50 @@
+name: Offline checks (Windows)
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: offline-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+defaults:
+  run:
+    shell: pwsh
+jobs:
+  offline:
+    runs-on: windows-2025
+    timeout-minutes: 20
+    env:
+      CI: 'true'
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+      NGINI_FIXTURE_MODE: '1'
+      NGINI_VISIBLE_BROWSER: 'false'
+      NGINI_SESSION_BROWSER_TEST: '1'
+      NGINI_CSP_BROWSER_TEST: '1'
+      NGINI_DOM_BROWSER_TEST: '1'
+    steps:
+      - name: Check out source without persisted credentials
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Use the exact tested Node version
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.19.0'
+          architecture: x64
+          package-manager-cache: false
+      - name: Install the exact package manager without lifecycle scripts
+        run: npm install --global pnpm@11.19.0 --ignore-scripts --no-audit --no-fund
+      - name: Check tool versions and offline CI contract
+        run: node scripts/github-ci-smoke.mjs
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build server and self-contained card
+        run: pnpm run build
+      - name: Test only unit and controlled integration fixtures
+        run: pnpm exec vitest run tests/unit tests/integration
+      - name: Check fixture-only MCP protocol
+        run: pnpm run test:protocol
+      - name: Audit publishable source files
+        run: pnpm run verify:release

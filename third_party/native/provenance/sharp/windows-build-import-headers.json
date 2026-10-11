@@ -1,0 +1,12 @@
+[
+  {
+    "entry": "lib/glib-2.0/include/glibconfig.h",
+    "bytes": 6061,
+    "sha256": "324774ae259a7d0b59c82f4eee2389bef4c62680ec39e1ce06a10b6aba21fa51"
+  },
+  {
+    "entry": "lib/libvips.lib",
+    "bytes": 737900,
+    "sha256": "0c8d5cdb143ca1603799ef741faa17f514a0d03041eb04ee8e9fbeb0df65f31d"
+  }
+]

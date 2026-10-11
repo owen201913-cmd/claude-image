@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "Windows x64 Sharp 0.35.5 / libvips 8.18.7 material selection; not legal certification",
+  "binary_excluded_prefixes": [
+    "third_party/native/recipes/build-win64-mxe/",
+    "third_party/native-source/"
+  ],
+  "source_companion_excluded_cache_files": [
+    "third_party/native-source/build-win64-mxe-ef19ca09af2453d127453d677c849ccb37cf5694.tar.gz",
+    "third_party/native-source/vips-dev-x64-web-8.18.7-static.zip",
+    "third_party/native-source/sharp-provenance/archives/sharp-win32-x64-0.35.5.tgz"
+  ],
+  "reason": "The exact build-win64-mxe repository has no confirmed independent redistribution grant; do not redistribute its code/patch subtree or repository tarball. Exact upstream access directions remain required. Verification binary archives are unnecessary in a source companion.",
+  "required": [
+    "Hash-checked native distribution manifest and exact staged file set",
+    "Matching application source asset and selected native source companion",
+    "Original component notices and full applicable license texts",
+    "Source-access directions adjacent to public binary download",
+    "Actual maintained public equivalent source access before calling public binary release ready"
+  ],
+  "not_automatic_hard_gates": [
+    "Bit-identical native rebuild",
+    "Full Sigstore verification",
+    "Source for every unmodified general-purpose compiler or System Library"
+  ],
+  "upstream_files_modified": false,
+  "public_release_performed": false
+}
