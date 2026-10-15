@@ -1,5 +1,7 @@
 # Claude Image
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/owen201913-cmd-claude-image-g1apu7?v=0b6a1413f02368fc2c7f1b416ef72e32)](https://m8ven.ai/mcp/owen201913-cmd-claude-image-g1apu7?s=readme)
+
 Describe a scene in Claude Desktop chat, generate one image, and preview or download the original in the same conversation. Website operations run in the background by default. Basic use needs no API key, additional account, or manual prompt copying.
 
 [Download Claude Image 0.1.0](https://github.com/owen201913-cmd/claude-image/releases/tag/v0.1.0) · [Traditional Chinese](README.zh-TW.md) · [MIT license](LICENSE)
